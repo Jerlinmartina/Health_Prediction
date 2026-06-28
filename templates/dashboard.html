@@ -1,0 +1,226 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="container">
+    <!-- Dashboard Header -->
+    <div class="dashboard-header">
+        <h1>📊 Interactive <span class="gradient-text">ML Dashboard</span></h1>
+        <p>Explore clustering, dimensionality reduction, and predictions with real-time controls.</p>
+    </div>
+
+    <!-- ═══════════════ OVERVIEW SECTION ═══════════════ -->
+    <div class="dashboard-section" id="panel-overview">
+        <div class="section-header" style="margin-bottom: 2rem; margin-top: 1rem; text-align: left;">
+            <h2 class="section-title" style="font-size: 1.8rem;">📋 Overview Summary</h2>
+        </div>
+        <div class="metrics-row" id="overviewMetrics">
+            <div class="loading-spinner"><div class="spinner"></div><p>Loading data summary...</p></div>
+        </div>
+        <div class="controls-row">
+            <div class="control-group">
+                <label for="filterGender">Gender</label>
+                <select id="filterGender">
+                    <option value="">All</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="filterOccupation">Occupation</label>
+                <select id="filterOccupation">
+                    <option value="">All</option>
+                    <option value="Doctor">Doctor</option>
+                    <option value="Engineer">Engineer</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Student">Student</option>
+                    <option value="Business">Business</option>
+                    <option value="IT Professional">IT Professional</option>
+                    <option value="Retired">Retired</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="filterDiet">Diet Type</label>
+                <select id="filterDiet">
+                    <option value="">All</option>
+                    <option value="Vegetarian">Vegetarian</option>
+                    <option value="Non-Vegetarian">Non-Vegetarian</option>
+                    <option value="Vegan">Vegan</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="filterAgeMin">Age Min</label>
+                <input type="number" id="filterAgeMin" min="18" max="65" value="18" />
+            </div>
+            <div class="control-group">
+                <label for="filterAgeMax">Age Max</label>
+                <input type="number" id="filterAgeMax" min="18" max="65" value="65" />
+            </div>
+            <button class="btn btn-primary btn-sm" id="applyFilters">Apply Filters</button>
+        </div>
+        <div class="dash-grid">
+            <div class="dash-card">
+                <div class="dash-card-header"><h3>📊 BMI Distribution (Filtered)</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container"><canvas id="filterBmiChart"></canvas></div>
+                </div>
+            </div>
+            <div class="dash-card">
+                <div class="dash-card-header"><h3>😴 Sleep Distribution (Filtered)</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container"><canvas id="filterSleepChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════ K-MEANS SECTION ═══════════════ -->
+    <div class="dashboard-section" id="panel-kmeans" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+        <div class="section-header" style="margin-bottom: 2rem; text-align: left;">
+            <h2 class="section-title" style="font-size: 1.8rem;">🎯 K-Means Clustering</h2>
+            <p class="section-subtitle" style="margin:0; text-align: left; margin-top: 0.5rem;">Group users into clusters based on multi-dimensional health metrics.</p>
+        </div>
+        <div class="controls-row">
+            <div class="control-group">
+                <label for="kmeansK">Number of Clusters (K)</label>
+                <div style="display:flex;align-items:center;gap:12px;">
+                    <input type="range" id="kmeansK" min="2" max="10" value="3" />
+                    <span class="control-value" id="kmeansKValue">3</span>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-sm" id="runKmeans">Run K-Means</button>
+        </div>
+        <div class="metrics-row" id="kmeansMetrics"></div>
+        <div class="dash-grid">
+            <div class="dash-card">
+                <div class="dash-card-header"><h3>🎯 Cluster Scatter Plot (PCA-Projected)</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container"><canvas id="kmeansScatter"></canvas></div>
+                </div>
+            </div>
+            <div class="dash-card">
+                <div class="dash-card-header"><h3>📉 Elbow Method</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container"><canvas id="elbowChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+        <div class="dash-grid">
+            <div class="dash-card dash-card-full">
+                <div class="dash-card-header"><h3>📊 Cluster Size Distribution</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container" style="min-height:250px;"><canvas id="kmeansBarChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════ DBSCAN SECTION ═══════════════ -->
+    <div class="dashboard-section" id="panel-dbscan" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+        <div class="section-header" style="margin-bottom: 2rem; text-align: left;">
+            <h2 class="section-title" style="font-size: 1.8rem;">🔍 DBSCAN Clustering</h2>
+            <p class="section-subtitle" style="margin:0; text-align: left; margin-top: 0.5rem;">Density-based clustering to detect noise and anomalies.</p>
+        </div>
+        <div class="controls-row">
+            <div class="control-group">
+                <label for="dbscanEps">Epsilon (eps)</label>
+                <div style="display:flex;align-items:center;gap:12px;">
+                    <input type="range" id="dbscanEps" min="0.1" max="5.0" step="0.1" value="0.5" />
+                    <span class="control-value" id="dbscanEpsValue">0.5</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label for="dbscanMinSamples">Min Samples</label>
+                <div style="display:flex;align-items:center;gap:12px;">
+                    <input type="range" id="dbscanMinSamples" min="2" max="20" value="5" />
+                    <span class="control-value" id="dbscanMinValue">5</span>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-sm" id="runDbscan">Run DBSCAN</button>
+        </div>
+        <div class="metrics-row" id="dbscanMetrics"></div>
+        <div class="dash-grid">
+            <div class="dash-card">
+                <div class="dash-card-header"><h3>🔍 DBSCAN Clusters (PCA-Projected)</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container"><canvas id="dbscanScatter"></canvas></div>
+                </div>
+            </div>
+            <div class="dash-card">
+                <div class="dash-card-header"><h3>📊 Cluster Size Distribution</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container"><canvas id="dbscanBarChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════ PCA SECTION ═══════════════ -->
+    <div class="dashboard-section" id="panel-pca" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+        <div class="section-header" style="margin-bottom: 2rem; text-align: left;">
+            <h2 class="section-title" style="font-size: 1.8rem;">📐 Principal Component Analysis (PCA)</h2>
+            <p class="section-subtitle" style="margin:0; text-align: left; margin-top: 0.5rem;">Dimensionality reduction for visualization and analysis.</p>
+        </div>
+        <div class="metrics-row" id="pcaMetrics"></div>
+        <div class="dash-grid">
+            <div class="dash-card">
+                <div class="dash-card-header"><h3>📐 PCA 2D Projection</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container"><canvas id="pcaScatter"></canvas></div>
+                </div>
+            </div>
+            <div class="dash-card">
+                <div class="dash-card-header"><h3>📊 Explained Variance Ratio</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container"><canvas id="pcaVarianceChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+        <div class="dash-grid">
+            <div class="dash-card dash-card-full">
+                <div class="dash-card-header"><h3>📈 Cumulative Explained Variance</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container" style="min-height:250px;"><canvas id="pcaCumulativeChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════ RANDOM FOREST SECTION ═══════════════ -->
+    <div class="dashboard-section" id="panel-rf" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+        <div class="section-header" style="margin-bottom: 2rem; text-align: left;">
+            <h2 class="section-title" style="font-size: 1.8rem;">🌲 Random Forest Classifier</h2>
+            <p class="section-subtitle" style="margin:0; text-align: left; margin-top: 0.5rem;">Feature importance and health risk prediction metrics.</p>
+        </div>
+        <div class="metrics-row" id="rfMetrics"></div>
+        <div class="dash-grid">
+            <div class="dash-card">
+                <div class="dash-card-header"><h3>🏆 Feature Importance (Top 10)</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container"><canvas id="rfImportanceChart"></canvas></div>
+                </div>
+            </div>
+            <div class="dash-card">
+                <div class="dash-card-header"><h3>🔢 Confusion Matrix</h3></div>
+                <div class="dash-card-body">
+                    <div id="confusionMatrixContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="dash-grid">
+            <div class="dash-card dash-card-full">
+                <div class="dash-card-header"><h3>📊 Classification Metrics by Class</h3></div>
+                <div class="dash-card-body">
+                    <div class="chart-container" style="min-height:250px;"><canvas id="rfClassMetrics"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}

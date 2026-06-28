@@ -1,0 +1,1001 @@
+Age,Gender,Occupation,Monthly_Income,Diet_Type,Exercise_Hours_Per_Week,Steps_Per_Day,Water_Intake_Liters_Per_Day,Sleep_Hours_Per_Day,Sleep_Quality,Screen_Time_Hours_Per_Day,Stress_Level,BMI,Calories_Per_Day,Resting_Heart_Rate,Smoking_Status,Alcohol_Consumption,Systolic_BP,Diastolic_BP,Cholesterol_Level,Blood_Glucose
+56,Male,Doctor,74048,Vegetarian,2.9,7146,3.1,7.8,6,8.2,5,21.9,2682,82,No,Occasional,128,71,128,88
+46,Female,Student,64357,Vegetarian,7.8,20281,3.1,8.8,8,1.6,1,28.4,2652,76,No,Occasional,118,76,214,87
+32,Female,Engineer,36497,Vegan,1.1,5816,1.9,8.1,8,9.1,7,26.0,1855,82,No,Occasional,128,78,179,99
+60,Female,IT Professional,129009,Vegetarian,0.0,4735,2.7,7.9,7,8.2,4,25.0,1713,92,No,Frequent,124,71,164,98
+25,Male,Student,21258,Non-Vegetarian,4.9,20430,3.4,7.1,6,5.1,7,28.5,2227,74,Yes,Frequent,127,78,178,84
+38,Male,Teacher,70959,Vegetarian,3.0,6642,3.4,7.5,5,7.1,6,26.9,1978,83,No,Occasional,128,78,139,79
+56,Male,Business,49902,Vegetarian,2.0,9234,2.2,8.5,9,6.0,6,30.8,1909,70,No,Never,132,85,207,101
+36,Male,Doctor,30454,Non-Vegetarian,5.4,15889,2.9,5.4,6,8.5,7,23.2,2107,86,No,Occasional,112,76,170,105
+40,Male,Business,52606,Non-Vegetarian,4.5,15814,2.1,6.6,7,8.0,9,23.3,2144,83,No,Never,121,74,161,104
+28,Male,Doctor,69969,Vegan,2.9,10464,2.4,6.1,6,3.2,8,19.8,2635,78,No,Occasional,113,75,177,87
+28,Male,Retired,101465,Vegan,1.4,8290,2.9,7.5,6,7.2,5,23.3,2152,72,No,Occasional,115,81,138,80
+41,Male,IT Professional,146857,Non-Vegetarian,5.7,14280,2.8,8.5,6,5.6,5,28.9,2715,75,No,Never,119,82,176,106
+53,Female,Student,88679,Non-Vegetarian,5.3,15212,3.3,6.3,6,6.2,7,30.2,2730,67,No,Never,137,83,176,95
+57,Female,Student,104628,Non-Vegetarian,3.8,10982,2.7,4.1,5,4.5,7,28.8,2715,80,No,Occasional,138,83,182,90
+41,Male,Teacher,133785,Non-Vegetarian,7.7,20413,3.5,6.5,6,9.5,9,17.8,2281,72,Yes,Frequent,120,78,145,65
+20,Male,Retired,28635,Vegan,1.9,7495,1.9,8.1,9,8.1,7,29.3,1721,76,No,Occasional,137,84,198,99
+39,Female,Student,91518,Non-Vegetarian,0.9,7562,2.4,7.6,7,4.5,4,17.6,1707,89,No,Occasional,106,71,135,71
+19,Male,Student,28409,Non-Vegetarian,2.6,9606,1.1,7.5,9,3.3,5,28.6,1995,84,No,Never,122,83,169,98
+41,Male,Engineer,33541,Vegetarian,3.9,14835,2.7,6.7,6,5.2,4,23.5,2193,82,Yes,Occasional,112,69,200,65
+61,Male,IT Professional,73022,Vegetarian,4.5,12971,2.1,5.5,3,6.9,6,27.8,2228,76,No,Occasional,130,72,231,97
+47,Female,Business,84064,Vegan,3.5,6867,3.3,7.6,8,6.5,6,19.7,2275,71,No,Occasional,115,72,154,65
+55,Female,Student,39946,Vegetarian,4.7,16614,3.3,6.0,5,8.5,8,29.7,2373,80,No,Never,131,81,176,110
+19,Female,Teacher,112616,Non-Vegetarian,1.5,5435,2.7,9.6,8,7.6,3,19.1,1799,81,No,Occasional,117,67,178,85
+38,Female,Business,116241,Vegetarian,6.9,15785,4.0,7.7,8,7.9,7,22.3,2084,64,Yes,Never,121,78,132,83
+50,Female,Doctor,144622,Non-Vegetarian,3.8,10350,2.3,6.3,5,6.7,8,21.0,2008,84,No,Never,113,67,149,89
+29,Male,Retired,118445,Vegetarian,6.2,19596,4.0,6.3,5,3.2,6,18.0,2407,83,No,Frequent,107,68,130,68
+39,Female,Retired,130409,Non-Vegetarian,4.7,8120,3.4,6.9,8,5.6,6,25.4,2302,75,No,Never,126,74,150,92
+61,Male,Student,142280,Vegetarian,4.9,21664,2.8,6.7,6,8.1,8,32.2,2106,86,No,Never,141,76,195,111
+42,Male,Student,130611,Vegan,5.1,16820,3.5,8.3,7,5.9,4,35.7,2289,75,No,Occasional,139,89,198,79
+44,Female,Business,36775,Non-Vegetarian,4.9,14378,2.4,7.2,7,7.0,8,25.4,2105,73,No,Frequent,136,72,174,87
+59,Female,Doctor,146907,Vegetarian,5.3,14402,2.6,6.1,8,5.4,6,29.5,2405,71,No,Occasional,138,77,191,98
+45,Male,Engineer,29927,Non-Vegetarian,6.7,17773,2.9,9.3,9,3.9,5,25.9,2336,80,Yes,Occasional,124,80,163,90
+33,Male,IT Professional,59086,Vegetarian,4.4,14222,2.6,7.1,6,5.8,6,27.0,2116,72,No,Frequent,120,80,173,109
+32,Male,Engineer,78266,Vegetarian,5.4,16333,2.5,7.9,8,6.6,4,23.6,2121,78,No,Never,109,69,162,77
+64,Female,Teacher,109971,Vegan,3.8,13229,3.4,6.3,6,4.7,7,25.8,2218,75,No,Occasional,122,80,191,86
+61,Female,Business,130210,Non-Vegetarian,6.9,17643,3.1,7.4,7,5.5,5,27.1,2411,69,Yes,Occasional,128,78,177,75
+20,Female,Student,63440,Non-Vegetarian,2.6,9186,2.8,7.4,7,4.1,6,22.7,2339,85,No,Occasional,129,83,179,101
+54,Female,Engineer,132771,Vegetarian,7.6,18301,3.1,4.7,6,8.2,10,24.7,2813,68,No,Never,129,80,183,87
+24,Female,IT Professional,86466,Non-Vegetarian,3.9,11532,1.9,9.4,10,5.4,4,24.8,2251,75,No,Never,126,74,183,86
+38,Male,Teacher,93924,Vegan,1.1,9814,2.5,8.5,10,8.9,5,28.3,1733,88,No,Occasional,124,75,213,96
+26,Female,Retired,136411,Non-Vegetarian,4.3,14223,1.9,6.5,7,9.1,9,20.7,2411,84,No,Occasional,123,71,132,89
+56,Male,Engineer,68965,Vegan,2.6,2329,2.6,5.7,7,5.8,7,24.8,2285,83,No,Occasional,128,73,162,94
+35,Male,Student,34691,Vegan,5.7,16899,2.4,7.4,8,4.0,5,32.6,2520,70,Yes,Occasional,120,87,238,131
+21,Male,IT Professional,84178,Vegetarian,2.7,10346,3.6,7.1,7,1.8,2,29.7,2525,77,No,Never,121,77,186,103
+42,Female,Student,34201,Vegetarian,3.1,10533,3.1,7.4,7,3.1,5,30.4,2287,79,Yes,Occasional,134,82,137,95
+31,Female,Student,22421,Vegan,0.2,4388,2.3,7.2,9,3.3,4,25.1,2052,86,No,Occasional,121,81,168,85
+26,Female,Teacher,120351,Non-Vegetarian,3.1,13390,3.3,7.6,9,8.8,8,26.3,2205,74,No,Frequent,119,69,180,89
+43,Male,IT Professional,86124,Vegetarian,0.0,7368,1.8,8.7,10,6.2,5,29.0,1969,89,No,Never,112,84,136,83
+19,Male,Doctor,104307,Vegetarian,0.8,4507,2.6,7.7,7,6.8,6,31.2,1697,84,No,Frequent,129,81,223,102
+37,Male,Retired,106360,Non-Vegetarian,5.5,15917,3.1,5.7,4,1.6,6,17.2,2345,65,No,Occasional,110,72,127,84
+45,Male,Student,89852,Non-Vegetarian,5.6,12650,3.2,8.6,8,3.6,2,19.7,2559,69,No,Never,104,66,157,75
+64,Male,IT Professional,75245,Vegetarian,4.9,10370,3.6,9.0,9,7.8,7,30.2,2474,73,No,Occasional,132,78,188,92
+24,Male,Student,123153,Vegetarian,2.1,7213,2.9,10.0,9,6.6,5,23.9,2179,80,No,Never,122,76,142,104
+61,Female,Engineer,60562,Vegan,3.9,14175,2.9,5.7,6,5.7,8,22.3,2543,87,No,Frequent,124,85,140,71
+25,Female,Engineer,100322,Non-Vegetarian,4.0,14582,2.0,7.3,7,7.1,8,20.0,1924,78,Yes,Frequent,102,77,133,65
+64,Female,IT Professional,31548,Non-Vegetarian,1.7,9342,2.0,4.5,3,9.3,10,22.8,1760,77,No,Never,115,82,185,75
+52,Female,Retired,80234,Non-Vegetarian,7.0,19412,3.2,7.7,8,5.6,4,19.4,2697,72,No,Never,109,70,147,65
+31,Male,Teacher,33340,Non-Vegetarian,5.8,16730,3.1,6.3,6,6.1,7,33.4,2315,72,No,Occasional,139,81,195,109
+34,Male,Doctor,84396,Non-Vegetarian,3.6,9876,2.2,9.3,10,6.4,4,24.9,3076,79,No,Occasional,122,72,153,87
+53,Female,Engineer,99695,Non-Vegetarian,4.1,13459,4.0,6.1,6,10.8,9,24.8,2421,80,Yes,Occasional,128,76,195,88
+57,Male,Teacher,93254,Vegetarian,4.4,14921,3.6,5.0,6,1.8,6,27.4,2308,82,No,Never,123,70,211,106
+21,Female,Doctor,125192,Non-Vegetarian,0.0,6885,2.5,6.4,6,7.4,8,28.8,1671,85,Yes,Occasional,128,77,211,90
+19,Female,Engineer,141658,Non-Vegetarian,3.5,14272,2.8,4.6,5,5.8,7,28.8,2100,86,No,Never,124,77,197,105
+23,Female,Doctor,40530,Vegan,2.6,11450,2.5,7.9,9,7.1,6,29.3,2120,84,No,Occasional,133,79,195,113
+59,Male,Business,74003,Vegetarian,2.0,9478,2.0,4.5,5,4.7,9,22.5,2068,77,No,Occasional,116,76,138,81
+21,Female,Student,47908,Vegan,3.4,13795,2.7,7.0,7,5.9,6,23.8,2094,89,No,Occasional,125,76,162,96
+46,Female,IT Professional,130407,Vegan,7.6,18613,3.5,4.5,5,7.4,10,28.1,2644,71,Yes,Frequent,132,81,171,94
+35,Female,Engineer,82186,Vegetarian,5.3,12335,2.4,6.6,7,12.2,8,22.9,2772,70,No,Never,121,73,127,96
+43,Male,Engineer,55653,Non-Vegetarian,2.9,9812,2.8,9.0,10,7.6,5,25.0,2494,87,No,Never,117,68,193,75
+61,Male,Student,145503,Non-Vegetarian,5.1,12317,2.9,7.4,7,4.3,4,26.6,2475,85,No,Occasional,114,74,164,77
+51,Female,Engineer,48783,Vegan,6.8,15552,2.3,6.0,5,5.2,5,28.1,2281,71,No,Occasional,121,74,208,92
+27,Male,Engineer,68535,Non-Vegetarian,5.8,15078,2.6,7.0,6,5.1,5,17.9,2631,71,No,Occasional,108,72,161,69
+53,Male,Business,121838,Non-Vegetarian,4.1,10398,2.6,7.0,7,2.4,3,27.9,2681,76,Yes,Frequent,108,80,195,90
+31,Male,Engineer,103273,Non-Vegetarian,2.7,9090,3.5,7.6,8,5.3,5,24.1,2466,83,No,Frequent,118,78,181,87
+48,Male,Engineer,40551,Vegetarian,5.4,9985,3.3,5.4,6,7.5,8,27.8,2632,81,No,Occasional,134,82,171,103
+32,Male,Engineer,58543,Vegetarian,4.8,14173,2.3,7.7,9,3.5,5,28.1,2732,78,No,Occasional,129,77,222,92
+25,Male,Teacher,65975,Non-Vegetarian,5.8,15443,3.3,4.0,2,8.1,10,31.4,2509,74,No,Never,133,81,198,94
+31,Male,Engineer,44036,Non-Vegetarian,5.3,12497,2.2,6.2,6,7.0,6,30.4,2593,82,No,Never,130,77,200,97
+40,Male,Student,96083,Non-Vegetarian,6.1,17628,3.7,6.4,7,4.5,7,30.4,2362,71,No,Occasional,128,75,181,92
+57,Male,Business,68756,Non-Vegetarian,2.9,12563,2.4,7.8,9,5.7,4,30.8,2221,84,No,Occasional,129,83,177,91
+38,Male,Engineer,107739,Vegetarian,6.6,12861,3.1,7.0,7,9.2,8,26.2,2924,70,No,Occasional,135,77,186,76
+33,Female,Doctor,139348,Non-Vegetarian,4.4,11013,3.5,5.3,7,7.5,9,25.1,2181,78,No,Never,131,73,177,91
+62,Female,Business,24305,Vegetarian,8.2,17837,2.8,5.8,6,6.0,7,28.5,2569,68,No,Occasional,131,76,170,91
+35,Male,Business,81436,Non-Vegetarian,2.6,7330,1.9,7.2,8,5.5,7,27.9,2136,80,No,Never,124,75,155,105
+64,Female,Doctor,18747,Vegan,7.5,20573,3.0,6.9,7,6.2,7,23.8,2643,68,No,Occasional,126,76,142,74
+41,Female,Student,38245,Non-Vegetarian,4.4,12435,3.4,6.3,6,5.0,5,26.6,2490,83,No,Never,113,81,202,88
+43,Male,Teacher,149175,Vegetarian,2.7,9198,1.8,6.4,7,1.8,7,24.9,2011,76,No,Never,121,75,159,108
+42,Male,Retired,129938,Vegetarian,3.0,5390,1.2,7.8,8,10.1,7,21.6,2590,75,No,Never,121,65,152,75
+62,Male,Retired,110559,Non-Vegetarian,3.4,12708,2.5,6.4,8,6.3,7,30.2,1886,89,No,Never,135,80,222,97
+58,Female,Student,60567,Non-Vegetarian,4.8,10541,3.2,6.9,8,6.8,7,25.2,2689,80,No,Frequent,127,76,150,79
+46,Female,Teacher,126709,Non-Vegetarian,5.0,14149,3.6,9.6,10,5.9,4,33.2,2209,63,No,Never,133,80,190,92
+32,Male,IT Professional,131322,Vegetarian,2.9,10913,2.4,5.3,4,4.5,7,18.5,1699,76,No,Never,112,69,131,94
+62,Male,Doctor,135717,Non-Vegetarian,4.0,15601,2.6,4.8,4,5.6,10,22.8,2339,68,No,Occasional,126,78,196,88
+18,Male,Business,91004,Non-Vegetarian,8.3,16667,4.0,7.9,8,2.8,3,25.1,2732,64,Yes,Occasional,113,75,212,92
+42,Female,Business,25879,Vegetarian,7.5,10951,2.4,6.2,6,10.6,9,29.5,2423,54,No,Never,127,81,205,82
+24,Female,Business,112491,Non-Vegetarian,4.9,14279,2.7,6.6,7,3.5,5,26.6,1968,75,No,Never,123,78,194,97
+26,Female,Doctor,19590,Vegetarian,4.1,16881,2.9,6.1,5,3.9,7,26.2,2290,71,No,Frequent,126,76,165,104
+41,Female,Doctor,25910,Non-Vegetarian,4.2,15657,3.1,6.7,5,5.1,4,20.5,2548,77,No,Occasional,102,69,193,94
+18,Male,Retired,36574,Vegan,5.2,14884,2.7,8.9,9,8.6,3,20.4,2570,66,No,Occasional,114,76,159,89
+61,Male,Retired,48430,Non-Vegetarian,2.0,7370,2.5,8.0,7,6.0,4,26.3,2054,81,No,Occasional,126,78,194,81
+25,Male,Retired,70627,Non-Vegetarian,3.5,13317,1.5,8.0,9,3.5,2,19.5,2340,76,No,Never,108,73,148,84
+41,Male,Teacher,67239,Non-Vegetarian,0.7,3826,2.0,5.3,5,8.5,9,22.9,1877,91,Yes,Never,136,81,158,93
+28,Female,Business,68913,Vegetarian,4.8,14830,3.1,5.6,5,7.5,9,27.0,2019,82,Yes,Occasional,124,82,213,76
+34,Female,Student,113972,Non-Vegetarian,5.3,15803,2.5,4.0,2,7.1,9,21.1,2081,78,No,Frequent,117,78,167,72
+25,Male,Teacher,108276,Non-Vegetarian,3.0,13050,2.7,6.0,7,7.4,6,31.4,2109,77,No,Never,129,75,227,111
+52,Male,Business,67772,Non-Vegetarian,7.1,24679,3.5,8.1,9,10.8,7,29.9,2612,81,No,Occasional,130,81,197,108
+52,Female,Doctor,80696,Vegetarian,1.5,8681,2.3,7.6,6,10.4,8,18.7,2193,74,No,Never,113,71,130,65
+50,Male,Doctor,115837,Non-Vegetarian,1.1,5707,2.5,6.7,5,4.6,4,21.3,2121,76,No,Never,105,79,146,92
+22,Female,Doctor,117750,Vegetarian,4.4,12856,2.4,7.0,6,9.2,8,16.0,2479,76,No,Never,107,74,138,75
+59,Male,Business,128572,Vegetarian,6.1,11557,3.0,6.2,7,6.8,8,21.9,2462,84,No,Never,119,72,147,93
+56,Male,Retired,17918,Non-Vegetarian,7.4,16583,3.6,7.2,7,7.0,7,28.1,2343,69,Yes,Frequent,135,81,162,90
+58,Male,Doctor,126683,Vegetarian,3.1,9556,2.7,7.9,8,2.6,5,23.3,2275,78,Yes,Occasional,131,75,189,94
+45,Male,IT Professional,40629,Vegan,6.2,14849,2.8,5.1,6,5.7,10,26.8,2675,65,Yes,Never,137,82,168,102
+24,Male,Doctor,31699,Non-Vegetarian,3.9,12400,2.9,7.4,6,4.4,4,18.9,1671,82,No,Frequent,105,66,150,76
+26,Male,Business,127436,Non-Vegetarian,3.7,9603,3.1,8.1,7,7.7,6,28.2,2035,82,No,Frequent,122,80,191,96
+25,Male,Retired,68984,Non-Vegetarian,5.8,18242,2.0,6.5,7,8.1,7,22.8,2323,77,No,Occasional,119,74,151,80
+29,Female,Teacher,66363,Non-Vegetarian,5.3,14540,3.6,7.8,8,1.9,3,25.0,2466,71,No,Frequent,129,75,201,107
+51,Female,Doctor,22069,Vegetarian,0.8,6416,2.2,10.0,9,6.0,5,24.6,1695,80,No,Never,119,72,148,88
+50,Female,Retired,121815,Vegan,7.0,16780,3.5,6.9,8,8.2,6,19.9,2630,65,Yes,Occasional,106,70,157,72
+40,Female,Retired,119726,Non-Vegetarian,6.8,17627,3.8,7.5,8,5.6,4,20.4,2563,72,No,Occasional,109,76,159,75
+41,Female,Engineer,85063,Non-Vegetarian,2.7,11922,1.9,6.1,7,7.5,9,28.9,2084,74,No,Frequent,136,77,187,99
+54,Male,IT Professional,34099,Non-Vegetarian,4.8,11472,2.6,7.2,7,6.7,7,26.6,2197,70,No,Occasional,129,74,152,101
+52,Male,Business,30622,Vegetarian,5.0,12354,2.8,7.6,6,6.7,5,29.2,2240,73,No,Never,126,79,206,85
+61,Female,Doctor,54433,Non-Vegetarian,4.5,12340,2.5,7.2,7,5.5,6,26.3,2070,74,No,Occasional,128,74,192,111
+57,Male,Engineer,54875,Vegetarian,2.9,6855,3.5,5.8,5,3.6,6,25.6,2243,77,No,Never,109,73,161,95
+39,Female,Business,144381,Non-Vegetarian,2.7,7811,2.2,7.2,5,3.8,6,18.1,2267,82,No,Never,112,71,159,83
+44,Female,Teacher,109932,Vegetarian,3.9,10829,2.5,8.8,9,7.4,5,23.9,2075,78,No,Never,124,68,175,87
+52,Male,IT Professional,73016,Non-Vegetarian,6.3,18525,3.2,7.5,8,6.0,7,24.9,2936,71,Yes,Frequent,118,72,146,90
+18,Male,Retired,75891,Vegan,5.1,14836,2.4,8.2,10,5.7,7,32.8,2333,76,No,Never,130,91,186,103
+52,Male,Doctor,121966,Non-Vegetarian,3.3,11423,2.5,6.7,5,5.2,6,27.7,2579,73,No,Occasional,115,80,206,105
+54,Female,Teacher,108343,Non-Vegetarian,5.5,17027,3.2,7.9,9,5.4,5,31.1,2299,75,No,Occasional,139,77,203,101
+64,Male,Business,54550,Non-Vegetarian,0.0,4656,2.0,7.3,6,8.1,7,27.4,1293,86,No,Frequent,122,80,170,102
+31,Female,Engineer,132295,Non-Vegetarian,6.3,17316,3.1,5.9,7,5.3,6,22.2,2657,65,No,Never,119,76,144,81
+20,Female,Business,42196,Vegan,0.5,5641,2.0,7.4,7,3.3,7,25.5,1922,89,No,Occasional,127,81,164,93
+18,Female,Business,68849,Vegan,3.3,11603,1.9,5.8,5,7.5,8,25.9,2205,74,No,Frequent,135,77,167,84
+22,Male,IT Professional,62358,Non-Vegetarian,1.8,6783,2.6,6.2,6,5.6,6,21.2,1855,82,No,Occasional,115,77,140,96
+43,Male,Doctor,54513,Vegetarian,1.4,1422,3.3,7.2,8,6.1,5,23.5,1959,88,No,Occasional,115,66,131,79
+31,Female,Teacher,95481,Non-Vegetarian,6.3,16004,3.2,7.4,6,9.2,8,24.2,2428,77,No,Occasional,124,72,192,86
+56,Male,IT Professional,103915,Vegetarian,3.1,14136,2.8,5.6,5,6.0,8,31.4,2096,79,No,Frequent,141,83,217,99
+44,Male,Engineer,139790,Non-Vegetarian,4.7,15775,3.3,8.3,8,6.6,5,16.7,2574,74,No,Occasional,107,70,120,72
+26,Male,Retired,53877,Non-Vegetarian,3.9,14433,2.2,7.7,10,3.6,5,29.8,2314,82,Yes,Never,122,76,194,106
+32,Female,Doctor,81451,Non-Vegetarian,5.0,17090,3.8,6.2,5,5.6,5,21.3,2552,78,Yes,Frequent,106,73,139,81
+32,Female,Retired,38848,Vegan,4.2,12781,2.9,5.2,3,7.2,9,19.5,2246,74,No,Occasional,110,71,145,94
+43,Male,IT Professional,24875,Non-Vegetarian,1.4,8013,3.2,6.8,8,2.9,5,29.7,1882,78,No,Occasional,133,78,184,91
+59,Female,Engineer,95389,Vegetarian,6.0,14255,2.7,6.5,7,6.4,8,27.9,2232,63,No,Occasional,127,84,175,97
+30,Male,Engineer,82961,Vegan,3.0,9609,3.6,7.1,6,6.2,5,30.0,2067,80,No,Never,124,83,232,92
+49,Male,Teacher,112976,Vegetarian,0.9,8159,2.7,6.6,7,6.1,5,28.2,1200,83,No,Occasional,121,74,176,100
+56,Male,Business,115091,Non-Vegetarian,3.1,13589,2.9,4.6,4,8.1,9,33.2,2024,84,No,Occasional,138,80,189,105
+49,Male,Engineer,31552,Vegetarian,7.0,17251,3.4,6.5,5,6.7,6,27.2,2620,73,Yes,Frequent,124,76,166,93
+21,Female,Engineer,143682,Non-Vegetarian,5.7,14134,2.9,6.6,6,9.0,9,24.4,2625,80,No,Never,123,77,190,101
+47,Female,Business,111338,Vegan,3.3,10941,3.3,7.8,8,4.0,6,26.4,2129,75,No,Occasional,132,74,145,86
+54,Female,Student,91105,Vegetarian,3.3,12443,2.8,6.2,7,6.3,7,30.0,2283,84,Yes,Occasional,140,85,177,105
+40,Male,Engineer,105802,Non-Vegetarian,3.4,7510,1.7,9.0,8,6.2,5,21.9,1663,76,No,Never,106,74,189,77
+56,Male,Doctor,83740,Vegetarian,8.2,14019,2.9,4.7,4,3.9,7,22.4,2770,72,No,Never,121,76,166,87
+62,Male,Retired,88301,Vegan,4.8,12263,2.8,8.6,8,7.9,5,23.8,1956,68,No,Frequent,114,69,171,76
+32,Female,Retired,29679,Vegan,4.9,10768,3.1,6.7,6,10.6,8,16.6,2086,76,No,Never,110,75,181,69
+60,Male,IT Professional,114421,Vegetarian,6.1,14709,3.1,8.0,9,6.0,5,25.6,2485,63,Yes,Frequent,123,65,179,91
+46,Female,Business,49173,Vegetarian,4.5,12730,3.5,7.1,8,7.0,5,17.5,2659,75,No,Never,108,73,128,95
+53,Female,Business,59899,Non-Vegetarian,3.5,10166,1.7,8.4,8,6.2,5,25.2,2313,80,No,Occasional,122,79,167,92
+30,Female,Business,62865,Vegetarian,3.6,15111,2.8,6.5,7,4.6,6,28.5,2237,75,No,Occasional,131,77,163,113
+49,Female,Doctor,53182,Non-Vegetarian,3.9,12836,1.9,5.7,4,2.4,6,23.1,2263,72,No,Occasional,121,80,190,89
+24,Female,Business,54109,Vegetarian,3.9,12771,3.2,8.7,8,4.6,4,31.7,2090,81,No,Occasional,125,80,210,99
+39,Female,Doctor,122046,Vegetarian,5.5,16455,3.0,6.9,8,3.2,5,19.2,2324,73,No,Occasional,108,71,171,95
+45,Male,Retired,80524,Non-Vegetarian,4.1,9532,3.0,7.3,8,9.4,7,29.8,2399,74,Yes,Occasional,121,82,215,103
+19,Male,Teacher,93812,Vegetarian,5.5,17497,2.6,8.5,9,5.8,4,27.7,2114,74,No,Never,118,90,175,89
+59,Female,Student,133942,Vegan,3.8,11650,3.4,5.8,5,5.3,8,18.1,2404,91,No,Occasional,126,77,126,83
+62,Female,Business,125572,Vegetarian,4.2,14236,3.4,7.7,8,7.8,5,35.8,2207,82,No,Never,132,87,214,107
+23,Male,Retired,66938,Vegetarian,0.0,2320,2.5,6.3,5,3.8,6,24.7,2006,91,No,Occasional,114,72,153,70
+45,Female,Student,79850,Vegan,5.8,11555,3.0,6.8,6,4.5,6,21.5,2736,76,No,Never,118,74,161,93
+45,Female,Retired,141193,Non-Vegetarian,4.7,15504,3.2,7.1,7,6.1,5,19.4,1946,76,No,Never,111,68,172,91
+61,Male,Business,65324,Non-Vegetarian,6.0,16741,2.7,5.2,5,8.1,8,24.1,2375,61,No,Occasional,122,80,165,107
+61,Female,Doctor,94426,Vegetarian,0.0,2744,2.6,6.1,6,7.0,8,24.5,1586,82,No,Never,132,77,173,94
+37,Female,Retired,57852,Non-Vegetarian,8.2,17585,4.3,8.6,8,6.5,4,25.4,2331,66,No,Never,123,71,172,89
+47,Female,IT Professional,132503,Non-Vegetarian,3.7,14473,3.3,8.1,7,6.2,5,23.8,1986,68,No,Occasional,116,75,183,97
+28,Male,Student,96657,Vegetarian,6.2,13186,2.8,6.9,6,6.8,6,27.5,3154,67,No,Occasional,123,75,169,103
+45,Male,Student,118500,Non-Vegetarian,1.9,12526,2.7,7.3,7,6.4,7,23.4,2180,71,Yes,Frequent,117,76,122,104
+42,Male,Doctor,52352,Non-Vegetarian,5.2,12108,2.3,6.6,7,3.9,8,17.3,2903,74,No,Occasional,118,68,151,76
+56,Female,Student,20021,Non-Vegetarian,1.9,10015,2.8,8.6,8,6.1,4,24.4,2235,85,No,Never,117,74,189,88
+50,Female,Teacher,37614,Non-Vegetarian,2.8,9218,2.8,6.8,7,3.9,6,16.0,1951,85,No,Occasional,97,72,145,67
+18,Male,Doctor,74131,Non-Vegetarian,7.8,20547,2.4,7.3,7,6.2,5,26.4,2641,71,Yes,Never,122,76,165,98
+44,Female,Student,125813,Vegetarian,3.6,10119,2.2,8.4,9,5.0,5,21.1,2379,73,No,Occasional,105,71,134,68
+30,Female,Student,17631,Non-Vegetarian,4.4,12513,2.7,6.1,6,11.1,8,25.7,2437,67,No,Frequent,138,79,185,99
+58,Female,Student,121400,Vegetarian,5.7,15362,2.9,8.9,7,5.9,5,30.3,2340,65,No,Occasional,123,82,196,106
+20,Female,Doctor,62674,Non-Vegetarian,5.0,11494,2.3,5.2,7,3.2,6,21.2,2023,69,Yes,Occasional,115,69,154,89
+56,Female,IT Professional,145323,Non-Vegetarian,4.3,14592,3.0,9.0,10,5.7,4,29.2,3138,72,No,Never,127,79,225,99
+23,Male,Engineer,41844,Non-Vegetarian,4.7,12176,3.0,6.6,7,7.0,6,23.3,2329,75,No,Occasional,117,80,146,103
+25,Female,Retired,86836,Vegan,8.8,20268,3.4,6.7,6,9.3,9,32.0,2775,62,No,Frequent,134,86,236,112
+44,Male,Business,119148,Vegetarian,3.9,9534,2.4,4.7,4,4.8,7,23.5,2296,79,No,Never,123,76,167,82
+26,Female,Retired,20362,Non-Vegetarian,4.4,6514,3.4,6.5,5,2.8,5,21.6,2267,75,No,Never,125,75,122,78
+54,Male,Student,23097,Non-Vegetarian,6.1,15502,3.9,5.8,5,7.6,8,27.7,2563,73,Yes,Occasional,133,81,179,86
+50,Female,Retired,19258,Non-Vegetarian,6.2,22191,2.9,6.3,6,3.2,5,23.3,2866,78,Yes,Occasional,127,77,184,93
+59,Male,Engineer,106066,Non-Vegetarian,6.4,18481,2.9,6.8,7,5.1,6,21.6,2537,66,No,Occasional,110,65,151,74
+61,Female,Engineer,87176,Vegetarian,5.3,14491,3.2,8.1,10,5.5,4,23.1,2145,76,No,Frequent,118,67,135,98
+41,Male,Student,52056,Non-Vegetarian,1.7,7402,2.3,7.2,8,5.9,6,24.8,1964,82,No,Never,122,80,168,103
+32,Female,Student,32261,Vegetarian,7.3,18196,3.2,7.4,8,7.4,8,30.4,2560,69,No,Occasional,134,75,176,91
+49,Male,Business,134173,Vegan,1.7,9427,2.8,5.7,6,4.6,6,17.3,2360,86,No,Occasional,118,71,151,75
+49,Female,Engineer,66696,Vegetarian,4.6,10327,1.9,5.9,6,5.5,8,25.1,2645,80,No,Never,123,76,188,91
+41,Male,IT Professional,30141,Vegan,2.5,12285,3.2,9.2,10,6.0,5,27.5,2127,75,Yes,Occasional,122,73,161,104
+58,Male,Engineer,104084,Non-Vegetarian,3.9,13808,2.8,6.1,4,6.3,6,25.8,1948,76,No,Never,126,78,161,108
+29,Female,IT Professional,115904,Vegetarian,4.7,15255,2.7,9.0,9,6.2,3,30.2,2058,77,No,Never,115,79,208,83
+56,Female,Retired,108219,Non-Vegetarian,4.6,14376,2.8,6.7,5,6.9,7,24.7,2356,74,No,Never,121,85,154,87
+19,Male,Teacher,67680,Non-Vegetarian,4.8,13689,2.9,7.0,6,7.7,6,24.3,2460,78,No,Frequent,120,73,148,86
+20,Female,IT Professional,33792,Vegan,7.2,19642,2.4,8.3,9,6.8,7,27.4,2570,72,No,Occasional,121,84,158,81
+54,Male,Business,123469,Vegetarian,4.9,15299,3.7,8.5,7,6.9,5,25.4,2268,84,No,Occasional,127,77,181,86
+34,Male,Doctor,68100,Vegetarian,3.5,10414,2.7,6.9,6,2.8,4,23.4,2072,70,No,Never,111,71,172,92
+19,Male,Retired,139118,Vegetarian,5.9,14185,3.3,6.5,7,6.1,5,27.1,2502,73,No,Occasional,123,80,167,91
+19,Female,Student,146839,Vegetarian,6.4,16774,3.6,6.9,7,7.0,8,22.4,1972,68,No,Occasional,122,77,162,70
+45,Male,Teacher,41992,Non-Vegetarian,1.5,11572,1.9,7.4,8,7.5,6,22.6,1705,85,No,Frequent,126,74,193,115
+40,Male,Engineer,143468,Vegan,5.2,11262,3.2,8.1,10,4.6,4,22.9,2267,67,Yes,Occasional,116,74,144,89
+54,Female,IT Professional,44570,Non-Vegetarian,5.4,11051,2.9,7.0,8,4.7,6,30.4,2750,76,No,Occasional,135,78,155,101
+49,Female,Teacher,134571,Non-Vegetarian,3.4,11531,3.1,7.7,6,4.9,4,16.0,2005,75,No,Never,110,64,145,65
+50,Female,Retired,101126,Non-Vegetarian,6.8,17367,2.2,9.0,10,7.1,5,26.6,2661,68,No,Occasional,124,80,176,96
+18,Female,Doctor,120389,Non-Vegetarian,3.7,12093,2.7,7.5,7,8.1,7,25.1,2301,70,No,Occasional,117,76,158,89
+36,Male,IT Professional,76580,Vegetarian,4.3,13349,2.5,7.4,8,5.2,6,18.3,2640,74,No,Frequent,103,70,158,65
+19,Male,Business,15744,Non-Vegetarian,3.7,11101,3.0,5.2,4,7.8,9,26.2,2560,83,No,Never,128,80,194,82
+61,Male,Engineer,47259,Vegan,4.0,15924,3.0,4.0,5,6.2,9,26.9,2266,77,No,Never,125,80,135,102
+43,Male,Engineer,71949,Non-Vegetarian,1.8,4237,2.1,7.5,6,5.8,5,27.4,1897,85,Yes,Occasional,130,72,169,114
+49,Female,IT Professional,61589,Vegetarian,1.1,4908,2.0,6.9,7,5.6,6,16.0,1766,91,No,Never,113,74,182,78
+23,Male,Doctor,90122,Vegetarian,7.2,17701,3.2,6.4,6,7.5,6,30.5,2604,72,No,Never,129,81,206,111
+49,Male,Student,146358,Vegetarian,2.3,5032,2.1,7.3,8,6.7,6,22.0,1967,78,No,Frequent,110,73,174,83
+21,Female,Student,31387,Non-Vegetarian,2.0,8160,2.9,6.9,6,10.6,10,27.7,2178,83,Yes,Occasional,134,82,206,94
+28,Male,Engineer,129365,Non-Vegetarian,0.0,9153,2.0,8.4,7,4.3,3,28.0,1905,82,No,Frequent,116,78,184,107
+34,Male,Retired,37319,Vegetarian,2.7,9912,1.2,7.1,7,7.0,6,21.5,2272,77,Yes,Occasional,112,76,174,101
+55,Male,Retired,146483,Non-Vegetarian,1.4,8096,2.2,6.1,6,4.9,5,27.6,2283,75,Yes,Never,119,80,197,108
+41,Male,Doctor,35729,Non-Vegetarian,7.3,14989,2.8,8.2,7,4.3,5,23.5,3142,75,No,Occasional,117,77,177,77
+22,Male,Engineer,100647,Non-Vegetarian,6.0,14259,2.3,6.7,7,6.0,7,16.7,2551,71,No,Never,117,75,132,75
+51,Male,Student,127102,Vegan,2.6,8742,2.0,7.6,8,6.3,5,29.7,2387,81,No,Frequent,128,83,194,102
+23,Female,Engineer,30704,Vegetarian,8.5,19505,3.5,6.4,5,11.8,9,21.9,2732,63,No,Occasional,118,75,148,82
+39,Female,IT Professional,136845,Vegan,6.0,19004,3.8,6.2,6,5.6,7,21.6,2816,75,Yes,Occasional,109,69,159,88
+28,Male,Retired,145317,Vegetarian,3.4,12514,2.9,7.1,8,3.7,3,23.4,2473,74,No,Never,119,80,142,96
+33,Male,Retired,59449,Non-Vegetarian,0.0,2221,1.9,7.0,7,6.5,6,26.1,2052,84,Yes,Occasional,119,76,161,102
+50,Female,Business,135247,Vegan,8.6,21096,3.7,7.6,8,1.9,4,24.8,2856,72,No,Never,120,73,166,107
+26,Male,IT Professional,66534,Vegan,1.2,8405,2.2,6.7,5,5.8,5,27.2,1777,87,No,Occasional,122,70,162,91
+23,Male,Business,28549,Non-Vegetarian,0.7,9110,2.0,4.8,5,6.0,7,19.6,1535,83,No,Occasional,120,74,140,67
+33,Male,Doctor,24821,Non-Vegetarian,6.0,19751,2.5,6.5,7,7.6,9,22.0,2510,64,No,Occasional,120,76,157,89
+46,Female,Student,50564,Non-Vegetarian,8.9,18482,2.7,8.0,8,7.9,5,24.5,3251,82,Yes,Never,119,69,178,108
+20,Male,Doctor,26073,Non-Vegetarian,6.8,15212,3.0,6.6,9,5.0,7,32.6,2539,80,Yes,Occasional,137,84,221,99
+37,Female,Doctor,22282,Vegetarian,5.1,11036,3.0,6.7,6,5.7,6,24.5,2608,78,No,Frequent,134,74,161,96
+53,Male,Student,124966,Non-Vegetarian,5.2,13774,2.9,8.2,9,4.5,4,29.3,2635,71,No,Never,131,89,216,105
+36,Female,Teacher,25771,Non-Vegetarian,5.7,16425,2.8,6.1,7,3.7,6,25.2,2413,73,No,Frequent,121,74,192,93
+43,Female,Teacher,76492,Non-Vegetarian,5.5,17368,2.6,5.1,5,6.6,7,23.1,2789,71,No,Never,120,73,174,87
+20,Male,Engineer,49096,Non-Vegetarian,4.6,13090,3.2,6.8,6,3.5,5,24.0,1625,82,Yes,Occasional,116,71,171,79
+36,Female,Teacher,27236,Non-Vegetarian,4.2,11760,2.2,6.4,7,5.2,6,24.3,1998,78,No,Occasional,115,81,176,66
+37,Male,IT Professional,66544,Vegan,3.9,12399,3.2,5.8,5,4.0,5,27.4,2039,73,No,Occasional,121,76,205,84
+49,Female,Retired,50921,Non-Vegetarian,2.5,7412,2.1,6.8,8,7.1,7,30.5,1895,78,No,Frequent,127,78,218,96
+24,Male,Business,39576,Vegan,3.4,16343,2.3,7.6,8,9.6,7,26.4,2292,84,No,Never,129,81,204,104
+58,Male,Retired,146238,Vegetarian,0.6,2060,1.6,7.0,6,3.4,5,29.7,1945,92,No,Never,121,74,192,98
+50,Female,Doctor,30233,Non-Vegetarian,3.8,12301,2.5,7.4,6,2.3,3,21.1,2354,85,Yes,Occasional,120,74,167,78
+57,Male,Retired,16885,Non-Vegetarian,2.0,13659,3.0,9.2,9,5.8,5,23.3,2189,85,No,Occasional,122,81,192,78
+56,Male,Engineer,68520,Non-Vegetarian,1.8,8256,2.7,6.6,7,6.0,7,22.1,1778,80,No,Never,119,77,148,92
+35,Female,Doctor,114203,Non-Vegetarian,4.4,12444,3.3,7.3,6,6.4,7,26.3,2023,60,No,Occasional,125,80,171,106
+57,Male,Student,124759,Non-Vegetarian,6.8,16346,3.5,6.4,7,5.1,6,23.6,2715,73,No,Occasional,116,78,167,99
+18,Male,Retired,121459,Vegan,5.8,14989,2.5,6.0,7,5.6,5,27.9,2338,73,No,Never,126,85,202,102
+28,Female,Teacher,23136,Non-Vegetarian,0.9,10052,2.2,6.3,7,6.7,9,21.3,1515,84,No,Occasional,126,80,176,69
+45,Female,Student,86986,Vegetarian,2.0,3070,2.1,6.4,7,8.1,8,25.2,2283,81,No,Never,120,79,168,87
+42,Male,Engineer,57999,Non-Vegetarian,5.9,19453,3.8,7.4,6,2.1,3,27.7,2857,67,No,Occasional,113,80,153,115
+40,Male,Business,104567,Non-Vegetarian,2.0,5040,1.9,9.8,9,5.3,3,16.7,2429,84,No,Never,110,64,144,87
+48,Female,IT Professional,46052,Vegetarian,3.6,10813,3.2,6.1,6,6.4,8,33.5,2279,81,No,Occasional,139,87,188,90
+47,Female,Teacher,29852,Vegan,5.1,13106,3.4,6.5,6,4.2,6,23.9,2568,78,No,Occasional,113,71,138,88
+59,Male,Student,130418,Non-Vegetarian,2.1,10251,3.4,6.9,7,9.5,9,16.9,2394,86,No,Occasional,109,70,120,79
+52,Female,Business,87603,Non-Vegetarian,4.2,8564,2.6,7.5,8,4.7,6,25.6,2144,80,No,Occasional,117,64,181,84
+24,Male,Retired,121071,Vegetarian,1.3,8495,2.8,7.3,7,5.9,5,25.1,2234,80,No,Occasional,116,77,200,67
+33,Male,Teacher,39272,Vegetarian,2.8,15100,3.8,8.5,8,7.1,4,24.7,2205,79,No,Never,117,72,172,91
+43,Male,Doctor,149835,Non-Vegetarian,4.6,9872,2.6,4.1,5,4.8,9,29.0,2580,76,Yes,Occasional,130,85,192,90
+19,Male,IT Professional,74087,Vegetarian,0.8,6914,1.6,4.1,3,2.3,4,28.0,1943,84,No,Frequent,120,79,208,88
+18,Male,Retired,69848,Non-Vegetarian,4.9,12165,2.0,6.4,6,5.1,6,26.2,2712,80,Yes,Frequent,119,81,146,89
+29,Female,Business,45075,Vegetarian,4.0,13264,3.2,8.3,7,8.1,4,26.8,2336,80,No,Never,121,72,190,92
+22,Female,Teacher,43692,Non-Vegetarian,5.1,14227,2.0,5.1,5,5.3,7,24.6,2041,85,No,Never,123,80,170,90
+54,Female,Retired,107085,Vegetarian,4.4,11316,2.7,4.0,2,4.3,8,32.1,2691,87,Yes,Frequent,133,91,212,94
+49,Female,IT Professional,81414,Vegetarian,6.7,18279,3.4,7.7,9,7.9,6,19.1,2367,72,Yes,Occasional,120,74,139,78
+26,Male,Business,135170,Non-Vegetarian,4.3,17250,2.9,7.3,8,5.3,5,25.6,2629,57,No,Occasional,124,79,158,74
+58,Male,Doctor,34268,Vegetarian,3.1,10102,2.9,5.7,5,5.0,6,25.3,2149,85,No,Occasional,113,77,176,94
+52,Male,Doctor,140887,Non-Vegetarian,4.2,14359,2.9,5.8,6,6.3,10,28.3,2598,74,Yes,Never,135,79,218,68
+36,Male,Student,91323,Vegan,5.1,10946,3.6,5.8,4,7.5,10,21.6,2696,71,No,Occasional,125,79,176,81
+33,Female,Engineer,131985,Non-Vegetarian,4.1,9988,2.3,7.1,8,10.8,7,18.0,2400,75,No,Frequent,110,65,134,87
+20,Male,Student,91872,Non-Vegetarian,4.1,13561,2.5,6.2,5,7.7,9,25.6,2419,75,Yes,Occasional,117,77,148,81
+37,Male,IT Professional,108274,Vegetarian,2.6,13390,2.2,7.6,9,8.3,6,26.1,2218,83,No,Never,123,70,143,100
+41,Female,Student,55139,Vegetarian,2.7,10749,3.0,4.0,5,5.0,9,31.0,1621,72,No,Never,134,80,222,113
+50,Female,Business,49037,Vegan,1.2,6377,2.8,6.0,6,3.9,6,19.9,1974,77,No,Never,107,74,132,65
+41,Female,Teacher,93434,Non-Vegetarian,7.5,18498,3.6,5.6,5,6.1,7,29.6,2421,72,No,Occasional,121,82,184,97
+28,Female,Business,33141,Non-Vegetarian,1.5,4573,3.0,6.7,7,6.2,7,34.5,2023,85,No,Never,137,84,236,79
+25,Male,Student,39160,Non-Vegetarian,2.6,11191,2.0,6.4,5,3.8,6,23.5,1826,83,No,Never,118,75,134,87
+53,Male,Engineer,24383,Non-Vegetarian,2.6,11885,3.4,8.0,9,5.6,4,19.8,1816,76,No,Frequent,109,63,181,81
+55,Female,Business,119882,Vegetarian,5.8,14309,3.8,4.8,5,6.8,7,23.4,2897,69,No,Never,120,74,161,65
+57,Male,Business,122549,Non-Vegetarian,3.4,9944,3.1,7.1,8,6.7,5,25.1,2475,76,No,Never,114,73,149,110
+37,Male,Business,66556,Non-Vegetarian,6.5,17364,4.1,7.7,5,7.0,4,27.3,2579,73,No,Never,120,74,176,97
+52,Male,Engineer,72596,Non-Vegetarian,2.7,8768,1.8,9.2,9,6.6,4,22.6,2170,87,No,Never,119,75,148,78
+42,Female,Business,113236,Vegan,4.6,13114,2.6,6.4,7,5.0,5,31.2,2290,66,No,Occasional,128,77,206,116
+52,Male,IT Professional,128424,Vegetarian,2.3,14389,2.2,7.4,7,5.0,5,20.5,2218,79,No,Frequent,104,69,141,65
+42,Female,Doctor,113145,Vegetarian,8.3,19322,3.8,4.8,5,3.6,8,18.0,2627,62,No,Frequent,111,63,120,66
+46,Male,Engineer,90287,Vegan,1.6,6984,1.9,4.1,4,9.6,10,29.4,2240,74,Yes,Occasional,127,81,185,75
+35,Male,IT Professional,86678,Non-Vegetarian,4.6,11661,3.3,8.0,10,6.0,5,16.0,2289,81,Yes,Occasional,109,64,120,92
+63,Male,Engineer,60955,Non-Vegetarian,5.3,16400,3.7,7.0,7,5.6,6,24.2,2331,77,No,Occasional,122,76,173,92
+35,Female,Engineer,66080,Vegetarian,4.8,13186,3.3,8.4,9,4.1,6,37.5,2381,78,No,Never,130,82,198,119
+19,Male,Doctor,96793,Vegetarian,3.6,9856,2.9,5.4,6,11.9,10,25.0,2084,82,No,Never,131,79,162,93
+52,Female,Teacher,118717,Non-Vegetarian,3.7,14963,2.3,7.6,7,3.9,4,20.5,2326,75,No,Frequent,106,71,158,88
+33,Female,IT Professional,82726,Non-Vegetarian,4.1,15929,2.4,9.2,8,5.1,2,24.8,2158,75,No,Never,126,80,167,91
+58,Female,Engineer,57882,Non-Vegetarian,3.7,10158,3.4,7.5,8,6.8,6,24.8,2361,89,No,Never,121,78,176,93
+53,Male,Retired,38038,Vegan,5.9,10953,3.5,7.3,7,7.2,7,25.6,2812,72,No,Occasional,116,70,188,93
+50,Male,Engineer,88630,Non-Vegetarian,8.4,22638,3.4,7.0,8,7.9,6,27.6,2628,72,No,Occasional,119,73,159,89
+21,Male,Student,37451,Non-Vegetarian,2.9,8508,2.4,5.1,6,9.6,10,20.8,2115,79,No,Never,122,75,154,82
+50,Male,Business,70352,Non-Vegetarian,1.3,9316,1.4,8.6,6,7.0,5,31.8,2071,73,No,Never,128,77,133,105
+31,Female,Teacher,35521,Non-Vegetarian,3.8,6914,2.2,6.3,6,3.9,5,26.0,2147,67,No,Occasional,121,64,181,93
+38,Female,Doctor,79308,Vegetarian,9.2,23791,4.5,7.6,9,5.5,3,27.9,3020,64,No,Occasional,132,82,178,81
+37,Female,Retired,135631,Vegetarian,2.4,6292,1.9,5.1,3,6.6,8,22.5,2227,85,No,Never,116,78,142,72
+25,Male,IT Professional,52206,Non-Vegetarian,7.3,19966,3.4,5.6,6,10.1,10,30.1,2947,74,No,Occasional,135,85,199,110
+24,Female,Engineer,84963,Vegan,7.4,18355,3.8,8.7,9,3.2,2,24.0,2537,75,No,Occasional,124,70,191,86
+20,Male,Business,141407,Vegetarian,2.9,7835,2.0,6.6,7,8.4,8,26.1,1912,74,Yes,Frequent,127,80,167,98
+34,Female,IT Professional,121836,Vegetarian,5.1,13162,3.1,8.7,9,6.4,4,21.3,2335,83,No,Never,104,69,138,73
+50,Male,Doctor,33772,Vegan,7.3,19855,3.8,6.9,8,7.7,7,21.0,2434,66,No,Never,120,74,159,68
+29,Male,Teacher,120296,Vegetarian,3.2,11024,2.7,4.8,3,5.8,8,27.8,2325,80,No,Occasional,121,76,156,87
+39,Female,Student,37709,Non-Vegetarian,3.6,12941,4.2,8.1,9,4.3,3,23.2,1942,78,No,Occasional,124,79,152,85
+39,Female,Teacher,16233,Vegetarian,2.8,14981,1.8,6.3,7,7.5,9,21.6,2719,79,Yes,Never,115,69,183,78
+63,Female,Student,42146,Vegetarian,2.0,4689,3.0,7.8,9,7.3,7,22.4,2364,88,Yes,Occasional,137,79,163,99
+47,Female,IT Professional,144205,Vegan,2.7,13903,2.5,7.0,6,7.9,6,27.8,2127,76,Yes,Never,135,78,146,97
+55,Male,Teacher,143443,Vegetarian,1.6,8140,2.8,5.1,7,6.0,8,22.5,2209,75,No,Never,116,73,126,104
+55,Female,Teacher,66450,Non-Vegetarian,4.1,10133,3.0,7.2,6,4.8,6,24.5,1883,77,No,Occasional,121,76,173,94
+62,Female,Teacher,95325,Vegetarian,2.5,6174,2.2,9.6,9,2.9,2,25.1,2731,78,No,Never,122,77,190,66
+25,Female,Doctor,27374,Vegetarian,4.5,12627,3.0,7.6,6,7.6,5,17.3,2192,93,No,Occasional,114,75,120,87
+44,Male,IT Professional,65985,Vegetarian,0.9,8924,1.4,6.9,8,6.8,8,19.1,1878,87,No,Occasional,118,74,157,65
+44,Male,Retired,46012,Vegetarian,4.7,13141,3.2,8.3,8,4.1,3,26.3,1900,74,No,Occasional,128,72,204,95
+51,Female,Student,99059,Vegetarian,5.7,19037,3.2,7.3,8,4.9,5,22.1,2606,68,No,Occasional,115,73,198,77
+38,Male,Teacher,39783,Non-Vegetarian,0.0,1372,2.5,7.3,6,5.1,8,29.2,1523,76,No,Occasional,128,88,195,119
+47,Female,IT Professional,58193,Non-Vegetarian,4.7,13429,3.4,5.7,5,3.0,6,28.9,2389,70,No,Never,125,85,198,112
+50,Male,Retired,25042,Vegetarian,6.5,13569,3.4,7.3,9,4.4,5,27.9,2444,73,No,Frequent,130,81,141,88
+45,Male,Business,74031,Non-Vegetarian,1.6,8789,2.5,8.2,7,3.7,1,32.3,1723,89,No,Frequent,129,82,243,102
+64,Male,Doctor,58163,Vegan,7.3,20357,2.9,6.0,7,5.2,8,24.7,2475,76,No,Never,125,80,159,92
+50,Male,Doctor,103356,Vegan,4.8,12588,2.6,8.7,9,4.5,2,27.6,2432,77,Yes,Never,126,80,164,104
+22,Female,Business,111788,Non-Vegetarian,2.6,3169,3.2,6.9,6,2.7,3,22.7,1792,78,Yes,Never,102,71,158,87
+36,Female,IT Professional,148280,Vegan,3.9,12517,3.5,5.9,6,10.0,9,34.8,2081,79,No,Occasional,142,80,241,98
+21,Female,Student,28796,Vegetarian,5.1,15271,2.8,8.2,10,8.5,7,32.9,2578,72,No,Occasional,136,83,248,97
+52,Male,IT Professional,105962,Non-Vegetarian,4.2,13570,2.9,6.7,6,4.4,6,25.0,2955,85,No,Occasional,132,73,175,90
+34,Female,IT Professional,39320,Non-Vegetarian,5.1,17269,2.5,7.9,7,6.5,5,26.5,2531,74,No,Occasional,114,72,198,105
+61,Female,Engineer,35074,Non-Vegetarian,2.2,6282,3.1,6.6,7,6.8,7,30.4,1835,80,No,Occasional,140,78,194,104
+45,Female,Retired,42931,Non-Vegetarian,4.3,14440,3.2,6.9,7,8.4,7,24.4,2224,65,No,Occasional,122,86,149,82
+47,Male,Doctor,33993,Non-Vegetarian,1.2,10141,3.4,7.6,6,4.4,5,22.4,1952,82,No,Occasional,120,74,191,92
+46,Male,Student,70330,Vegan,3.8,7393,2.3,7.3,7,8.2,7,28.5,2169,82,No,Occasional,138,81,174,93
+63,Male,Engineer,30003,Non-Vegetarian,2.2,9759,2.3,4.6,4,4.9,9,25.3,2290,75,No,Occasional,129,73,204,100
+23,Female,Business,29743,Non-Vegetarian,2.5,8239,2.7,5.7,6,3.3,7,25.7,2154,76,No,Occasional,126,70,201,117
+52,Female,IT Professional,139291,Non-Vegetarian,6.5,16496,3.5,8.1,6,7.4,6,21.7,2807,76,No,Occasional,118,70,171,81
+58,Female,Business,94543,Vegetarian,6.2,17029,3.0,6.8,7,8.6,7,18.1,2465,65,No,Occasional,110,77,181,86
+54,Male,Doctor,39300,Vegetarian,5.2,13141,2.5,6.4,5,11.2,10,25.9,2755,80,No,Occasional,128,80,220,85
+41,Male,Engineer,125888,Non-Vegetarian,1.8,6550,2.9,5.4,6,3.6,6,28.6,1974,79,Yes,Occasional,123,81,183,96
+46,Female,Retired,121818,Non-Vegetarian,3.4,11205,3.1,5.7,7,7.4,7,24.1,1965,76,No,Occasional,121,79,152,89
+63,Male,Engineer,86509,Vegetarian,6.4,13801,2.7,4.6,3,5.2,8,30.7,3112,67,No,Occasional,119,79,158,99
+48,Male,Student,24703,Non-Vegetarian,4.3,10025,3.5,6.9,8,7.6,7,22.2,1860,78,No,Occasional,121,80,206,110
+52,Male,Retired,104403,Non-Vegetarian,8.6,22178,4.1,6.3,6,3.1,6,20.8,2647,80,No,Occasional,115,70,146,80
+50,Male,IT Professional,71436,Non-Vegetarian,4.8,10768,3.0,5.8,7,3.5,6,24.7,2219,79,Yes,Never,119,81,194,96
+38,Female,Student,36845,Vegetarian,4.4,14585,2.9,6.9,8,4.4,4,24.7,2955,72,No,Never,120,76,156,71
+49,Male,Engineer,96777,Vegetarian,3.4,12276,3.0,7.4,6,6.2,6,28.1,2660,84,No,Occasional,118,71,215,100
+40,Male,Retired,50055,Vegan,4.3,8425,2.4,9.5,9,4.7,3,21.9,2689,75,No,Occasional,125,69,146,96
+50,Male,Engineer,25209,Non-Vegetarian,3.7,9966,2.8,5.2,7,7.3,9,30.5,2161,84,No,Frequent,133,75,170,95
+20,Male,Student,73812,Vegan,5.4,17705,1.9,8.4,7,8.1,7,32.9,3055,78,No,Occasional,134,88,199,80
+35,Female,Engineer,109035,Vegan,5.9,13167,3.5,8.2,9,7.2,6,24.8,2600,58,Yes,Occasional,116,76,161,90
+42,Female,Retired,118139,Non-Vegetarian,2.4,8158,1.8,6.1,5,9.2,8,30.0,2332,75,No,Never,132,72,204,100
+59,Male,Teacher,115838,Vegetarian,1.3,8495,3.1,7.2,6,6.8,6,20.8,2001,87,No,Never,124,74,154,90
+48,Male,Doctor,111123,Vegan,0.3,7498,2.1,6.5,6,3.6,4,29.3,1824,85,No,Occasional,132,76,202,118
+20,Male,IT Professional,43400,Vegan,5.0,13371,2.8,7.2,9,8.7,8,29.2,2337,70,No,Never,136,75,183,94
+57,Male,Doctor,91511,Non-Vegetarian,1.8,6746,2.2,8.8,10,4.8,5,28.5,1964,78,No,Occasional,129,85,173,88
+63,Male,IT Professional,93121,Non-Vegetarian,0.0,8555,2.1,7.7,7,7.8,6,24.9,1952,75,No,Occasional,119,76,160,79
+41,Male,Retired,130763,Non-Vegetarian,4.8,17987,3.6,7.6,8,9.1,7,16.0,2468,75,No,Occasional,101,68,177,76
+49,Female,Engineer,138183,Non-Vegetarian,9.0,23647,2.3,6.5,5,6.9,8,22.4,2872,78,No,Frequent,119,74,166,91
+64,Male,Retired,105775,Non-Vegetarian,4.0,12413,3.4,5.2,3,3.0,7,22.5,2657,81,No,Occasional,118,69,122,80
+39,Female,Student,58906,Non-Vegetarian,5.7,13239,3.2,6.7,7,4.2,6,21.1,1742,85,No,Never,122,68,146,91
+40,Female,Student,134925,Non-Vegetarian,4.2,10483,2.2,8.4,9,8.6,5,25.5,2431,81,No,Frequent,123,81,176,96
+19,Male,Engineer,35378,Vegetarian,3.8,13146,2.2,5.2,7,5.7,8,23.3,2435,83,Yes,Frequent,131,74,202,88
+44,Female,IT Professional,41568,Vegetarian,5.8,16485,3.9,5.7,6,6.2,6,21.7,2783,83,Yes,Never,124,73,179,75
+59,Female,Engineer,112046,Vegetarian,3.4,14623,2.2,7.2,7,7.5,5,20.8,2192,80,Yes,Never,111,64,137,78
+19,Female,IT Professional,102332,Vegetarian,4.5,14726,2.3,5.8,5,7.4,8,22.1,2392,75,No,Never,109,70,209,65
+43,Female,Engineer,122014,Vegan,4.6,9522,3.5,6.0,7,6.6,7,29.5,2598,81,Yes,Never,138,83,189,101
+34,Female,Engineer,45796,Vegetarian,2.7,12489,2.8,6.5,5,5.6,6,22.4,2497,87,No,Frequent,126,75,187,86
+57,Female,Engineer,70061,Vegetarian,6.0,13304,2.6,5.4,5,5.4,6,22.9,2445,71,No,Occasional,110,81,140,89
+50,Male,Student,90597,Vegetarian,3.7,10700,2.9,5.8,5,7.7,9,23.2,2311,74,No,Occasional,132,82,120,92
+26,Female,IT Professional,39401,Non-Vegetarian,2.5,10125,2.1,7.8,7,7.1,7,26.4,2520,81,No,Frequent,127,77,149,97
+60,Female,Business,149882,Non-Vegetarian,5.1,19169,3.5,5.4,5,5.5,5,26.8,1881,79,No,Occasional,124,79,120,93
+56,Female,Engineer,114216,Vegetarian,2.2,16734,3.1,5.1,4,8.2,10,16.0,1891,85,No,Never,123,70,178,75
+46,Male,Doctor,104362,Vegetarian,4.1,13896,3.1,6.2,6,5.7,6,29.1,2658,70,No,Frequent,136,87,193,84
+59,Female,Doctor,19902,Vegetarian,4.0,11742,3.0,7.9,8,4.3,5,30.7,2553,87,No,Occasional,133,85,176,95
+43,Male,Retired,100148,Non-Vegetarian,6.2,17496,4.0,6.8,8,4.5,5,20.8,2675,69,No,Occasional,117,73,164,83
+52,Female,Retired,64723,Vegetarian,4.9,16039,2.9,6.4,7,4.0,6,21.1,2276,74,No,Occasional,120,74,160,76
+42,Male,Student,75599,Vegan,3.9,11218,2.2,7.1,7,5.5,5,23.2,2048,73,No,Occasional,115,80,177,96
+41,Male,Teacher,28967,Non-Vegetarian,5.6,19568,3.3,4.9,5,8.5,10,22.0,2324,87,No,Never,122,78,184,78
+30,Female,Business,128312,Vegetarian,6.8,17815,4.3,7.6,8,4.4,3,25.9,3003,73,No,Occasional,114,81,170,94
+24,Female,Student,77365,Non-Vegetarian,5.1,15424,2.5,7.5,8,6.4,6,17.2,2255,71,Yes,Frequent,108,61,123,78
+53,Male,Teacher,94608,Vegetarian,4.0,13864,2.6,6.5,6,4.7,7,20.5,2305,81,No,Never,114,75,171,90
+62,Female,Student,100953,Non-Vegetarian,1.4,8573,2.6,8.2,10,5.5,5,31.2,1780,86,No,Occasional,126,78,213,111
+37,Male,Retired,131327,Vegetarian,1.9,10517,2.5,5.6,6,3.0,8,21.3,2239,80,No,Occasional,119,81,159,91
+18,Male,Doctor,86979,Non-Vegetarian,3.4,9576,2.2,8.4,8,5.6,4,30.0,2073,82,No,Never,125,85,236,78
+25,Male,Engineer,118146,Non-Vegetarian,2.8,8644,3.2,7.2,6,5.6,7,26.4,2112,75,No,Occasional,128,78,169,105
+63,Male,IT Professional,117331,Vegan,3.6,8729,3.9,6.6,8,7.1,7,17.8,1811,75,No,Never,102,77,125,93
+33,Male,Retired,45993,Vegetarian,4.1,13478,2.9,7.0,6,6.4,7,27.5,1889,67,No,Occasional,126,86,190,90
+31,Female,Engineer,143238,Vegetarian,5.1,16127,2.5,6.9,8,3.6,5,24.5,2414,68,No,Never,121,75,157,92
+29,Male,Doctor,89663,Non-Vegetarian,3.9,13164,2.0,8.5,7,8.2,5,23.2,1937,86,Yes,Frequent,116,84,175,78
+40,Male,IT Professional,64483,Vegan,5.0,18186,3.1,5.7,7,6.4,9,26.0,2926,83,No,Never,126,78,159,73
+32,Female,Teacher,131747,Vegan,4.1,12366,3.4,6.1,7,6.4,7,26.9,1777,77,No,Never,116,77,172,86
+45,Male,Teacher,52879,Vegetarian,0.0,6671,2.4,8.2,8,6.0,3,27.8,1600,93,Yes,Never,124,80,221,90
+51,Female,Doctor,18888,Vegetarian,2.1,6050,2.5,6.3,6,5.0,6,29.7,2056,80,No,Frequent,133,78,183,95
+19,Female,IT Professional,80713,Non-Vegetarian,3.7,10692,2.5,8.1,9,6.4,6,26.6,2153,76,No,Occasional,127,78,162,84
+49,Female,Engineer,138825,Vegetarian,1.6,9618,1.9,9.0,10,7.0,6,19.5,1716,82,No,Occasional,120,77,173,73
+40,Male,Doctor,22426,Vegetarian,5.2,16482,3.4,6.5,6,2.5,5,23.1,2185,74,No,Occasional,119,74,143,87
+39,Male,Teacher,85031,Vegetarian,7.1,17045,3.7,7.8,8,4.9,6,36.8,2404,70,Yes,Occasional,142,79,205,104
+42,Male,Doctor,25047,Non-Vegetarian,6.4,16341,2.4,5.6,7,5.5,6,27.9,2496,78,No,Never,127,80,195,101
+39,Female,Engineer,36366,Vegan,3.6,7685,3.5,7.9,9,6.5,5,34.5,2720,79,No,Occasional,139,80,229,114
+39,Male,Student,40080,Vegan,7.0,16707,3.5,7.2,7,8.4,7,30.6,2659,75,No,Never,122,85,219,124
+59,Female,Business,33788,Non-Vegetarian,4.3,14965,3.5,7.6,7,4.5,5,26.0,2612,82,No,Frequent,117,79,161,103
+23,Male,Business,75633,Non-Vegetarian,3.3,12378,2.0,6.2,6,5.0,6,26.2,2323,80,No,Occasional,133,83,189,95
+32,Female,Retired,142461,Vegan,2.8,11291,1.9,5.0,3,5.0,8,24.9,2414,75,Yes,Occasional,109,81,162,84
+60,Male,Business,48921,Vegetarian,3.4,11244,2.6,7.6,9,4.4,4,18.0,1508,71,Yes,Never,108,74,132,81
+54,Male,Student,39982,Non-Vegetarian,3.2,10777,2.9,4.5,3,5.3,8,25.1,2108,79,No,Occasional,131,75,196,94
+50,Male,Engineer,84014,Non-Vegetarian,4.3,11089,3.7,6.6,6,7.5,7,29.8,2643,76,No,Never,130,84,180,94
+25,Female,Retired,67632,Vegetarian,4.3,14487,3.2,8.1,8,3.9,3,22.6,2173,77,Yes,Never,112,80,168,94
+61,Female,IT Professional,135056,Non-Vegetarian,4.0,13252,2.7,7.2,6,6.9,6,26.6,2721,77,Yes,Never,125,75,182,79
+61,Male,Doctor,90696,Vegetarian,4.9,15050,2.4,9.3,8,2.6,2,28.4,2759,88,Yes,Occasional,120,84,164,94
+22,Male,Engineer,115750,Non-Vegetarian,6.4,15204,3.8,8.2,10,4.9,4,21.4,2451,66,No,Occasional,114,70,177,89
+56,Female,Student,73926,Vegetarian,5.9,10236,2.6,6.2,8,5.3,6,23.2,2382,63,No,Never,115,71,176,84
+21,Female,Retired,88137,Vegetarian,1.0,9542,3.2,7.0,9,9.3,8,20.9,1667,85,Yes,Never,125,75,120,81
+23,Female,Teacher,84053,Vegetarian,0.0,3802,2.1,6.9,8,5.5,5,21.7,1643,83,No,Occasional,124,76,164,83
+62,Male,Business,85338,Vegan,5.9,13463,3.9,5.1,8,1.6,7,19.8,2200,75,Yes,Occasional,114,76,136,73
+49,Female,Business,125694,Non-Vegetarian,1.3,9073,2.7,5.9,6,2.0,4,21.4,2063,85,No,Never,106,68,180,96
+47,Male,Engineer,99295,Non-Vegetarian,3.6,10499,2.7,6.3,6,6.1,6,30.7,1868,84,No,Never,127,82,166,90
+64,Female,Business,103309,Non-Vegetarian,1.7,10709,2.2,4.6,5,7.2,10,21.3,2155,74,No,Frequent,120,73,150,87
+52,Male,Business,128721,Non-Vegetarian,0.4,7262,2.1,7.1,9,6.8,5,25.5,2005,81,No,Frequent,124,70,181,95
+57,Female,Engineer,65123,Vegetarian,5.1,15888,3.2,6.7,7,6.3,5,23.0,1997,77,No,Frequent,111,70,165,77
+33,Female,Engineer,128732,Non-Vegetarian,5.5,11485,3.1,5.0,7,8.3,10,29.7,2847,78,No,Occasional,129,79,206,100
+30,Female,Retired,87672,Vegetarian,2.8,13069,2.3,7.5,8,4.9,3,30.2,2264,90,No,Never,129,80,162,91
+59,Female,Student,67238,Vegetarian,0.0,5653,2.1,7.9,6,7.8,6,28.5,1987,90,No,Never,133,83,219,111
+47,Female,Student,28417,Non-Vegetarian,2.9,9296,2.7,7.3,7,2.7,6,26.2,1958,79,No,Never,120,71,187,81
+36,Male,Business,105841,Vegetarian,4.8,13998,1.9,6.6,8,4.2,4,24.1,2532,71,No,Never,110,75,196,82
+34,Female,Retired,52719,Vegetarian,1.0,2359,2.6,7.7,7,2.4,2,20.2,2202,80,No,Frequent,129,65,170,70
+36,Female,Engineer,19002,Non-Vegetarian,4.4,13941,2.4,7.8,8,5.5,3,32.8,2303,73,Yes,Occasional,134,83,203,91
+45,Female,Engineer,148404,Non-Vegetarian,4.0,9626,2.2,7.4,8,5.9,6,22.0,2780,80,No,Occasional,116,71,134,101
+43,Male,Business,41149,Non-Vegetarian,5.2,10978,2.1,6.0,8,6.2,8,27.7,2435,76,No,Never,133,75,172,101
+54,Female,IT Professional,109994,Non-Vegetarian,4.2,8754,1.9,7.3,8,6.1,5,29.2,2589,70,No,Frequent,126,82,221,99
+43,Male,Teacher,113989,Non-Vegetarian,2.1,11561,1.8,8.4,9,4.1,4,22.8,2125,79,No,Occasional,121,71,191,80
+40,Female,Doctor,100808,Non-Vegetarian,6.4,14946,2.8,6.3,6,5.6,8,29.2,2714,77,No,Never,131,79,176,107
+26,Female,Doctor,73923,Vegetarian,3.7,15494,3.7,9.5,9,3.0,4,28.1,1826,79,No,Frequent,124,68,128,88
+29,Male,Business,32352,Vegetarian,3.9,10680,2.5,6.4,7,8.7,8,31.9,2361,80,No,Never,134,87,195,111
+18,Female,Retired,76081,Non-Vegetarian,2.1,4511,2.6,7.0,9,5.4,3,23.1,1868,83,No,Never,107,76,159,78
+18,Male,Doctor,36645,Vegetarian,3.1,7788,2.9,6.2,7,5.0,5,19.9,1960,87,No,Occasional,124,71,147,75
+64,Male,Student,40343,Vegan,2.2,12049,2.6,7.3,7,9.2,7,23.0,2500,82,No,Occasional,114,69,175,94
+51,Female,Retired,15645,Non-Vegetarian,3.7,11270,2.7,4.9,4,3.5,7,25.8,2191,76,No,Never,116,82,193,100
+49,Male,Retired,46775,Vegetarian,7.4,16949,2.7,6.3,8,3.7,5,25.2,2437,66,No,Never,120,73,193,97
+42,Female,Student,19121,Vegetarian,1.3,7740,3.1,5.7,5,3.8,7,23.4,1866,84,Yes,Frequent,115,74,175,77
+57,Female,IT Professional,78742,Vegetarian,0.8,7694,3.2,7.2,7,5.9,7,17.4,1571,71,No,Occasional,111,80,120,72
+62,Male,Business,24271,Vegetarian,6.9,20213,2.4,8.2,7,6.9,5,26.9,2986,70,Yes,Occasional,127,74,173,95
+18,Male,Student,125821,Vegetarian,3.6,15101,2.2,7.8,8,7.5,7,32.9,2058,77,No,Never,141,86,250,96
+33,Male,Business,90828,Non-Vegetarian,2.7,8960,2.5,4.2,5,11.1,10,26.9,2256,73,Yes,Never,134,82,187,108
+56,Male,Business,110011,Vegan,6.1,12664,2.6,9.5,9,1.5,1,27.4,2871,68,Yes,Never,117,76,189,71
+22,Female,Retired,53682,Non-Vegetarian,2.8,9006,2.9,7.4,7,7.2,7,27.3,2011,83,Yes,Never,127,80,188,87
+39,Female,Engineer,88749,Vegetarian,7.7,19510,3.0,6.1,5,4.9,6,26.6,2857,71,Yes,Never,127,79,187,88
+46,Male,Teacher,79747,Non-Vegetarian,5.4,12310,4.1,7.2,7,4.8,7,28.7,2190,75,No,Never,118,81,139,69
+20,Female,Teacher,16903,Non-Vegetarian,3.0,8007,3.2,7.2,9,4.8,4,26.6,2771,81,No,Occasional,125,76,174,79
+29,Female,Business,117413,Non-Vegetarian,8.3,20799,3.6,6.2,6,4.2,5,23.7,3030,69,No,Never,110,80,166,94
+43,Female,Teacher,101534,Non-Vegetarian,2.8,9918,3.1,7.2,8,9.4,7,21.8,2088,86,No,Occasional,130,69,185,85
+33,Female,Teacher,137702,Vegan,5.5,14981,3.6,6.3,5,7.7,8,24.0,2267,75,No,Never,120,80,169,104
+54,Male,Doctor,33319,Non-Vegetarian,4.6,11383,2.6,6.5,7,6.0,8,26.3,2324,69,No,Occasional,125,82,144,108
+39,Male,Retired,113919,Non-Vegetarian,6.6,16303,2.8,6.2,6,8.7,8,23.7,2507,80,Yes,Never,118,79,175,92
+46,Female,Doctor,91178,Vegetarian,7.1,15469,3.3,5.3,6,3.0,5,26.3,3140,73,No,Occasional,119,81,161,96
+31,Male,Engineer,86991,Non-Vegetarian,4.1,14605,3.2,7.2,8,3.3,5,26.8,1986,74,No,Never,137,76,155,94
+45,Male,IT Professional,83309,Vegetarian,2.5,12088,2.6,7.7,9,1.6,4,28.3,2134,74,No,Frequent,130,70,169,70
+22,Male,Retired,42377,Non-Vegetarian,4.9,9204,2.1,7.6,8,4.6,3,30.1,2383,77,No,Occasional,116,78,203,86
+64,Female,Student,73336,Non-Vegetarian,2.6,7356,2.2,8.0,10,6.3,5,25.3,2083,79,No,Occasional,130,72,198,92
+47,Female,Student,90312,Vegetarian,8.0,15658,3.4,7.4,8,6.2,4,19.8,2733,77,No,Never,119,68,161,87
+63,Female,Doctor,109941,Vegetarian,4.3,11114,2.8,6.4,5,6.3,6,23.6,2287,75,No,Occasional,118,70,179,91
+22,Male,Business,74229,Vegetarian,3.3,10731,3.7,8.0,10,3.2,3,25.2,2414,74,No,Occasional,120,72,182,82
+29,Female,Teacher,80679,Vegetarian,4.4,9295,2.2,5.4,5,7.6,9,17.7,2480,81,No,Never,114,70,145,87
+33,Female,Engineer,40698,Vegetarian,1.3,5035,2.6,5.9,7,6.5,7,30.6,2061,87,No,Occasional,143,72,208,115
+43,Male,IT Professional,60169,Vegetarian,2.1,6270,3.3,5.8,5,7.5,7,25.6,1294,82,No,Occasional,119,80,126,101
+43,Female,Doctor,113574,Vegetarian,6.4,17038,4.3,8.3,8,2.2,4,26.5,2643,76,Yes,Occasional,122,85,180,103
+38,Female,Business,56022,Vegetarian,2.7,10033,2.4,8.1,9,6.6,4,30.5,1710,79,No,Occasional,125,82,173,95
+56,Male,Engineer,81543,Vegan,1.9,6615,2.7,7.6,8,3.6,5,22.5,2190,82,No,Frequent,108,73,185,97
+53,Male,Business,107955,Vegetarian,5.1,14622,3.2,8.3,8,5.2,3,27.3,2781,81,No,Frequent,135,76,178,96
+50,Male,Engineer,123768,Vegetarian,6.4,15153,3.3,5.9,3,7.1,7,24.6,2336,75,Yes,Occasional,115,75,171,95
+47,Female,Doctor,111416,Non-Vegetarian,5.4,14040,3.0,7.4,7,6.2,6,24.3,2383,73,No,Occasional,122,76,139,93
+54,Female,Engineer,51492,Vegan,6.0,19983,3.3,6.8,6,4.3,6,21.9,2370,80,No,Occasional,107,73,180,84
+40,Female,Retired,109525,Non-Vegetarian,2.5,12851,1.3,8.0,6,6.0,6,31.7,2409,68,No,Occasional,129,78,211,94
+27,Male,Teacher,125230,Vegetarian,1.2,3911,2.7,6.9,6,2.9,4,23.5,1968,93,No,Frequent,120,80,177,87
+22,Male,Engineer,103519,Non-Vegetarian,7.0,19674,3.3,6.5,8,8.3,8,27.8,3072,62,No,Never,123,73,167,105
+53,Female,IT Professional,73636,Non-Vegetarian,3.4,13148,2.6,7.6,9,5.6,5,17.5,2311,75,Yes,Occasional,113,72,127,72
+51,Female,Engineer,70639,Non-Vegetarian,3.5,8429,3.7,8.1,7,8.2,6,29.7,2281,78,No,Never,127,79,195,108
+48,Male,Retired,55685,Non-Vegetarian,6.7,19106,2.9,6.2,6,4.9,7,29.2,2621,71,No,Never,136,88,175,105
+27,Male,Student,30739,Vegan,5.1,18024,2.8,6.9,6,5.0,6,25.4,2616,80,No,Never,130,78,182,88
+36,Male,Retired,35704,Vegan,4.9,11013,3.9,5.7,6,4.5,5,24.1,1954,70,Yes,Occasional,116,73,125,103
+49,Male,Engineer,110688,Non-Vegetarian,8.3,17646,3.0,4.0,4,7.8,10,26.6,2817,70,No,Never,129,79,169,90
+18,Female,Business,62383,Non-Vegetarian,2.7,12404,2.3,7.2,6,4.6,5,34.2,2106,77,No,Occasional,135,83,245,122
+22,Male,Doctor,39307,Non-Vegetarian,5.9,16298,3.0,7.7,7,7.3,5,17.9,2689,75,No,Occasional,114,65,152,82
+62,Female,Student,19716,Non-Vegetarian,4.1,13758,3.2,7.3,8,5.2,4,28.1,2245,76,No,Never,124,74,188,96
+21,Female,Doctor,115924,Vegetarian,4.5,13951,3.0,4.7,6,2.0,8,21.4,2080,76,Yes,Never,120,67,197,75
+33,Female,Business,57928,Vegan,7.1,18756,2.6,6.6,6,4.9,6,24.9,2654,68,No,Occasional,120,72,125,89
+41,Male,IT Professional,28587,Vegetarian,5.0,10683,2.7,4.3,4,3.6,7,24.0,2129,72,No,Occasional,122,76,152,87
+33,Male,Teacher,16195,Non-Vegetarian,5.1,16798,2.7,8.6,9,6.1,3,23.3,1931,76,No,Frequent,123,74,157,75
+19,Male,IT Professional,140711,Vegan,6.1,18903,3.1,5.7,6,3.6,5,25.0,2714,78,No,Frequent,124,67,189,88
+45,Male,Student,130982,Vegetarian,3.3,10366,2.9,8.5,10,7.9,7,20.5,2341,75,No,Frequent,120,72,172,74
+49,Female,Business,35009,Non-Vegetarian,2.3,9031,2.8,8.1,8,5.8,5,29.1,2193,76,No,Occasional,131,81,171,104
+44,Male,Business,121172,Vegetarian,1.9,4592,1.6,5.9,8,5.6,6,17.8,2354,84,No,Frequent,110,70,163,91
+37,Male,Teacher,116123,Non-Vegetarian,0.1,6465,2.7,5.6,7,7.3,9,27.2,1646,85,No,Occasional,131,77,173,82
+41,Female,Engineer,28696,Vegetarian,8.1,21010,3.5,7.4,7,7.9,6,23.7,2414,73,No,Frequent,113,73,191,105
+29,Male,Student,143733,Non-Vegetarian,1.8,8084,3.2,6.0,6,6.0,9,20.3,1998,77,Yes,Never,126,72,133,81
+52,Female,Teacher,22564,Non-Vegetarian,3.6,14290,3.0,7.1,6,4.5,7,25.8,2145,69,No,Frequent,107,75,173,82
+50,Female,Retired,18637,Vegan,3.4,10284,3.3,6.4,6,2.5,4,18.8,1997,76,Yes,Occasional,109,71,137,87
+50,Female,Retired,108695,Vegan,4.6,14691,3.1,4.9,6,4.6,7,25.2,2332,72,No,Occasional,130,86,194,86
+60,Female,Doctor,27568,Vegetarian,5.6,12530,3.7,4.3,5,4.8,5,19.3,2319,73,No,Never,104,68,139,79
+54,Female,Teacher,108539,Non-Vegetarian,5.7,15201,3.3,7.3,9,6.2,4,26.8,2025,70,No,Occasional,124,75,178,90
+29,Female,Doctor,85847,Vegetarian,2.8,9604,2.6,6.3,5,5.3,5,21.3,2026,83,No,Never,111,72,167,76
+20,Female,Retired,56596,Vegetarian,3.7,12223,3.9,6.3,6,7.4,8,23.2,1960,76,No,Never,119,73,176,94
+18,Female,Retired,53315,Vegetarian,4.6,12356,3.3,7.8,7,4.8,4,26.2,2410,77,No,Never,127,80,195,90
+50,Male,Doctor,32191,Vegan,3.5,10971,3.0,8.4,8,5.9,3,21.9,2056,79,No,Occasional,115,62,164,70
+57,Male,Business,132083,Vegan,7.2,20025,2.6,6.7,7,8.4,7,24.8,2942,72,No,Never,110,74,163,96
+27,Male,Teacher,35908,Vegetarian,5.0,12908,2.3,6.6,6,6.7,7,18.9,2801,75,No,Never,108,75,141,67
+60,Male,Business,147487,Vegetarian,5.5,10883,3.2,7.6,9,5.9,6,27.5,2630,77,Yes,Never,131,77,183,83
+61,Female,Retired,55276,Vegetarian,5.3,18913,3.1,5.4,7,4.8,5,32.1,2048,70,Yes,Occasional,134,78,205,115
+46,Male,Business,62650,Non-Vegetarian,6.3,19793,2.8,7.3,5,4.7,5,36.2,2932,79,Yes,Never,148,86,214,99
+30,Female,IT Professional,79427,Non-Vegetarian,4.4,9689,2.9,7.7,9,4.3,3,25.4,2722,75,No,Never,129,78,174,68
+29,Male,IT Professional,99369,Vegetarian,1.4,9244,3.2,7.8,10,4.9,6,28.2,1973,76,No,Occasional,124,79,154,102
+48,Male,Business,109957,Non-Vegetarian,4.8,12382,3.3,4.7,5,7.5,10,17.9,2707,76,No,Occasional,131,70,157,75
+63,Male,Business,92316,Vegetarian,2.7,10518,2.0,6.1,5,5.6,6,31.0,1986,75,No,Never,131,83,200,99
+19,Female,Doctor,54871,Vegan,2.9,10955,2.6,5.9,5,3.3,5,28.1,1681,83,Yes,Never,119,76,204,93
+52,Male,Business,27221,Non-Vegetarian,5.2,13773,2.6,7.1,7,9.5,7,23.1,2234,86,No,Never,116,78,164,89
+40,Female,Student,36116,Non-Vegetarian,6.5,14740,3.0,7.6,8,6.6,3,29.9,3012,68,Yes,Frequent,112,84,157,92
+34,Female,Teacher,56474,Non-Vegetarian,4.0,10473,2.6,8.8,8,3.2,3,24.0,1907,79,No,Occasional,126,63,161,103
+43,Male,Student,55100,Non-Vegetarian,4.6,10989,2.7,6.4,6,5.1,6,23.2,2352,67,No,Occasional,129,75,161,72
+25,Male,IT Professional,132982,Vegetarian,7.4,16240,2.7,6.4,5,6.2,8,26.9,2697,72,No,Never,121,72,194,98
+46,Male,Student,20416,Vegetarian,4.5,12932,2.8,8.4,8,9.4,5,20.7,2212,72,No,Occasional,113,82,120,89
+43,Female,Engineer,30251,Vegan,9.2,19770,3.3,7.4,7,3.8,4,29.1,2793,63,Yes,Never,126,76,189,90
+27,Male,Engineer,69822,Vegetarian,5.1,15885,1.5,8.5,8,8.0,4,20.8,2430,69,No,Never,107,74,165,73
+43,Female,IT Professional,58655,Vegetarian,0.5,9618,3.3,7.3,6,8.8,6,20.8,1719,88,Yes,Occasional,105,72,142,93
+51,Female,Student,148099,Non-Vegetarian,5.5,13449,3.6,5.6,5,4.7,6,21.4,2104,79,No,Occasional,115,70,159,74
+58,Male,Teacher,104091,Non-Vegetarian,4.8,14238,2.7,5.4,5,5.4,8,28.0,2430,76,Yes,Never,127,76,171,90
+24,Male,IT Professional,15315,Non-Vegetarian,6.6,18129,3.2,5.1,5,3.9,6,22.5,2860,67,No,Occasional,116,80,147,95
+21,Female,Engineer,113834,Vegan,5.3,15720,2.4,7.8,9,5.6,5,19.6,2653,82,No,Frequent,114,75,142,81
+62,Female,IT Professional,123898,Non-Vegetarian,3.7,11849,3.6,8.4,8,5.9,4,22.6,2042,74,No,Occasional,124,81,148,68
+28,Female,Student,66011,Vegetarian,1.6,9736,3.4,9.2,8,7.3,3,24.9,1679,71,No,Occasional,116,74,185,108
+46,Male,Student,55640,Non-Vegetarian,3.6,12685,2.8,8.0,8,8.2,6,20.3,2161,80,No,Frequent,116,73,139,77
+53,Female,Student,128802,Non-Vegetarian,2.3,6045,3.1,8.4,8,4.5,4,20.4,2468,75,No,Occasional,117,70,136,78
+42,Male,Doctor,106331,Vegetarian,2.8,12212,2.7,6.3,6,2.1,4,33.4,2297,84,No,Occasional,135,80,241,108
+38,Female,Student,43798,Vegetarian,5.2,16578,2.3,5.6,5,6.0,8,21.6,2600,73,No,Occasional,115,70,178,91
+53,Female,Business,123262,Vegetarian,7.3,16231,3.1,8.0,7,6.6,4,23.7,2898,73,No,Never,118,74,130,108
+27,Male,Engineer,114371,Non-Vegetarian,4.8,13734,3.0,7.5,6,6.5,5,23.5,2481,82,No,Occasional,122,71,151,71
+54,Female,Retired,46461,Vegan,1.6,9588,2.2,7.1,7,5.3,6,23.3,2022,76,No,Never,112,76,170,96
+26,Male,Engineer,114031,Non-Vegetarian,4.9,13296,2.8,7.5,8,6.2,5,27.5,2554,72,Yes,Never,132,78,188,102
+41,Male,Doctor,97163,Vegan,6.4,19202,3.1,7.4,7,9.0,7,28.8,2431,72,No,Occasional,137,81,157,96
+52,Female,Engineer,78496,Vegetarian,2.8,15949,2.6,8.5,8,6.8,5,23.8,1782,87,No,Never,114,81,190,96
+52,Male,Engineer,106897,Vegan,3.7,9695,2.8,8.6,8,5.3,4,20.1,2425,74,No,Occasional,113,71,169,91
+53,Male,IT Professional,81247,Non-Vegetarian,4.0,8747,2.3,7.7,8,5.0,2,30.1,2589,74,No,Occasional,128,81,202,86
+35,Female,Retired,108262,Vegetarian,2.4,10079,2.2,8.0,7,5.7,3,24.6,1808,83,Yes,Occasional,114,82,198,107
+56,Male,Retired,96085,Vegan,5.3,16343,2.4,7.6,7,9.3,8,31.9,2641,72,No,Never,137,88,209,87
+49,Male,Student,142061,Vegetarian,3.8,11262,3.3,6.4,6,5.6,7,16.0,2676,78,No,Never,110,74,145,65
+41,Male,Business,73852,Vegan,4.8,17273,1.9,7.9,7,6.0,4,25.8,2375,68,No,Occasional,112,74,206,89
+40,Female,Business,123293,Vegan,2.2,5613,3.1,5.3,5,5.0,7,32.7,1859,92,No,Frequent,137,84,225,124
+49,Male,IT Professional,17560,Non-Vegetarian,3.1,12312,3.4,8.3,8,8.2,6,23.6,2203,72,No,Never,113,70,150,85
+54,Female,Business,34944,Non-Vegetarian,5.4,13205,2.9,5.6,7,9.9,10,24.1,2310,73,No,Never,131,80,181,88
+29,Female,IT Professional,82713,Vegetarian,3.3,15238,1.4,7.3,6,6.9,4,26.2,2042,78,No,Frequent,117,77,164,107
+30,Male,Retired,35098,Non-Vegetarian,7.5,23481,3.1,6.0,7,6.2,6,22.8,2808,80,No,Never,117,74,173,83
+40,Male,Retired,42475,Non-Vegetarian,3.2,8843,2.6,7.7,8,6.1,5,23.8,1783,72,No,Frequent,127,79,177,76
+42,Male,Retired,131338,Non-Vegetarian,4.4,11546,2.4,7.0,8,1.2,4,23.6,1967,86,No,Occasional,120,69,139,84
+52,Female,Business,17948,Non-Vegetarian,5.9,17768,2.8,5.1,6,7.5,10,22.5,2513,77,No,Occasional,116,83,160,100
+58,Male,Engineer,148592,Vegan,1.2,6192,3.1,7.5,7,6.3,5,29.9,1938,85,No,Never,122,83,197,100
+47,Male,Retired,142294,Vegetarian,0.5,5786,2.6,6.3,5,6.9,6,26.8,1946,79,No,Never,121,77,170,113
+34,Male,Teacher,77976,Non-Vegetarian,0.9,6683,1.9,8.1,8,4.6,5,26.0,2377,86,No,Never,124,76,182,100
+37,Male,Student,29020,Vegan,6.5,11900,2.4,7.0,5,5.2,7,28.2,2606,68,No,Frequent,130,81,201,90
+42,Male,Teacher,107816,Non-Vegetarian,2.9,10185,2.5,7.5,8,5.2,5,23.9,2298,86,No,Occasional,114,81,167,89
+39,Female,Engineer,79566,Vegetarian,9.1,19655,3.5,5.9,6,8.0,7,21.9,2648,62,No,Occasional,111,75,164,76
+30,Female,Doctor,124014,Vegetarian,2.9,8987,2.9,6.3,6,5.2,7,22.6,2340,79,No,Occasional,121,75,190,79
+36,Male,IT Professional,82792,Vegetarian,4.4,16529,2.6,6.4,6,10.2,9,25.0,2196,73,Yes,Never,124,78,181,135
+53,Male,Business,120656,Non-Vegetarian,7.1,14638,3.5,8.0,7,6.9,4,20.8,2670,66,No,Occasional,126,79,159,93
+29,Male,Business,108248,Non-Vegetarian,8.0,21433,4.4,9.0,9,3.4,3,23.0,2733,73,No,Occasional,115,71,145,95
+58,Male,Engineer,93372,Vegan,8.1,18882,3.8,6.0,5,5.7,8,22.9,3030,71,No,Occasional,132,75,177,80
+36,Female,Business,19358,Non-Vegetarian,6.4,15820,3.1,8.3,8,4.7,5,33.5,2241,78,No,Never,126,88,213,121
+29,Male,Engineer,47039,Vegetarian,6.0,17775,3.0,4.4,5,1.6,6,16.0,1949,64,No,Occasional,99,69,162,85
+26,Female,Teacher,134985,Non-Vegetarian,5.2,15210,2.8,5.6,6,9.2,9,24.3,2371,80,Yes,Frequent,118,82,170,108
+24,Female,Doctor,36245,Non-Vegetarian,5.6,16506,3.6,5.8,6,7.4,9,31.9,2589,86,No,Occasional,143,80,163,121
+45,Male,IT Professional,144024,Vegan,2.9,12640,2.3,5.4,5,7.1,7,25.5,2186,77,No,Never,134,76,140,77
+31,Female,Business,32259,Non-Vegetarian,2.4,8491,2.6,5.1,6,6.3,8,28.0,2396,90,No,Occasional,124,86,199,85
+48,Female,Doctor,76086,Non-Vegetarian,4.0,10669,2.8,7.5,8,3.2,3,25.4,2389,76,No,Never,116,72,162,81
+36,Female,Doctor,91747,Non-Vegetarian,3.7,8947,2.5,6.7,7,5.0,7,22.3,2103,71,No,Occasional,112,74,170,76
+64,Female,Doctor,145196,Vegan,3.1,8516,2.0,7.5,6,7.7,6,16.0,1591,77,No,Frequent,97,70,138,77
+33,Male,Student,96164,Non-Vegetarian,5.4,22092,3.2,7.8,7,3.9,5,25.8,2389,79,No,Occasional,126,72,172,86
+22,Male,Doctor,98048,Vegetarian,5.9,18731,3.1,7.3,8,1.0,4,21.9,2765,69,No,Occasional,116,71,158,106
+52,Female,Retired,137262,Vegetarian,4.2,9182,3.1,7.8,8,5.5,4,21.8,2206,74,No,Occasional,115,73,142,104
+29,Male,Engineer,80124,Vegetarian,7.0,14293,3.0,6.9,6,5.7,7,23.0,2647,74,No,Never,111,75,164,87
+42,Male,Student,50609,Non-Vegetarian,1.7,9264,3.1,5.6,7,6.3,9,32.0,2109,82,Yes,Never,146,89,188,123
+38,Male,Retired,79403,Vegetarian,3.6,12848,2.3,8.3,10,7.5,6,34.6,1978,81,Yes,Frequent,133,90,203,123
+53,Male,Student,92538,Vegetarian,2.6,11052,3.4,6.3,8,7.3,7,25.9,2268,81,No,Occasional,127,74,169,88
+40,Male,Doctor,63478,Vegetarian,0.3,4902,1.4,5.9,6,6.5,7,23.1,2245,87,No,Never,111,76,160,67
+33,Female,Business,77525,Non-Vegetarian,3.8,11526,3.0,6.8,6,8.4,8,20.3,2213,75,No,Never,116,76,172,80
+56,Male,Business,84248,Non-Vegetarian,3.8,12659,3.0,5.9,7,3.0,5,26.9,1974,79,No,Occasional,125,83,177,87
+62,Male,Business,144210,Non-Vegetarian,7.0,17814,2.9,6.5,7,7.0,9,32.1,2623,66,No,Occasional,138,86,221,105
+59,Male,Business,54826,Vegetarian,5.3,8991,3.2,7.4,6,7.3,6,24.0,1880,81,No,Occasional,121,76,199,89
+56,Male,Engineer,34328,Vegetarian,2.0,8025,3.1,7.4,7,3.5,2,16.0,2124,78,Yes,Never,106,69,153,75
+31,Female,Business,98247,Non-Vegetarian,7.7,16731,2.2,5.9,7,3.0,6,27.7,2837,75,No,Frequent,119,81,193,100
+48,Female,IT Professional,20906,Vegetarian,6.4,16958,3.4,6.4,6,4.5,6,28.9,2987,71,No,Occasional,129,75,194,85
+22,Female,Doctor,44107,Vegetarian,5.2,21823,1.7,8.3,8,4.7,4,18.7,2376,76,Yes,Occasional,111,71,164,83
+52,Female,Student,66412,Vegetarian,3.5,12218,2.2,7.6,7,7.5,6,25.7,2322,76,No,Occasional,124,82,177,87
+40,Male,IT Professional,98349,Vegan,2.1,7996,3.3,9.5,9,4.8,4,26.8,1837,76,No,Never,122,75,199,96
+46,Female,Business,61213,Non-Vegetarian,3.3,13244,2.4,8.4,7,4.3,5,24.7,2107,70,No,Frequent,112,76,183,99
+60,Male,IT Professional,128632,Vegetarian,6.2,17366,2.5,8.4,9,4.8,4,21.8,2163,67,Yes,Never,107,71,152,72
+28,Male,Student,99388,Vegetarian,7.8,20090,3.3,5.3,5,8.2,8,29.1,2687,68,No,Never,117,71,206,95
+35,Male,Business,127958,Vegan,7.1,19297,4.3,7.9,8,6.0,5,23.4,2576,72,No,Occasional,123,74,167,86
+64,Male,IT Professional,45907,Non-Vegetarian,3.0,15541,1.7,6.9,7,5.6,6,19.1,2235,84,Yes,Occasional,118,72,146,75
+29,Male,Engineer,110707,Non-Vegetarian,1.8,5412,1.9,6.3,5,5.8,6,16.8,1860,79,No,Occasional,114,67,130,85
+26,Female,Engineer,144185,Non-Vegetarian,4.3,13924,3.6,7.2,5,8.6,8,30.0,2337,72,No,Occasional,133,77,195,92
+27,Female,Doctor,68551,Non-Vegetarian,0.5,3584,3.2,8.1,8,4.5,5,27.5,1777,77,No,Occasional,111,74,202,89
+61,Female,Doctor,122412,Non-Vegetarian,4.6,14668,2.8,7.6,7,8.6,8,25.4,2269,78,No,Frequent,119,81,191,84
+34,Female,Retired,49018,Non-Vegetarian,3.7,9363,2.1,5.9,6,6.4,9,23.2,2264,85,No,Never,124,84,172,98
+55,Male,IT Professional,74542,Non-Vegetarian,3.1,9536,3.7,7.9,9,5.7,4,22.9,2182,85,No,Frequent,117,79,176,82
+24,Female,Student,78534,Vegetarian,0.8,5702,3.1,6.2,4,11.0,10,20.7,2086,87,No,Never,119,70,180,87
+63,Male,Engineer,51555,Vegan,5.0,16439,3.3,7.3,7,3.9,4,23.3,2370,78,No,Occasional,119,77,162,107
+30,Female,Teacher,111915,Non-Vegetarian,2.9,12516,2.2,6.6,8,5.3,7,16.5,2061,88,No,Never,110,67,120,74
+57,Male,Doctor,25470,Vegetarian,1.7,4945,2.4,6.7,8,3.5,5,22.1,1959,83,No,Occasional,117,71,186,96
+59,Male,Retired,53426,Vegan,0.0,5137,2.1,7.9,6,7.9,5,23.8,1621,88,Yes,Frequent,115,73,157,105
+26,Female,Engineer,67924,Vegan,3.9,10246,3.0,5.8,7,9.4,9,27.4,2178,76,No,Occasional,135,83,168,105
+44,Male,Retired,120267,Vegan,7.5,15353,4.1,9.3,8,9.3,3,24.8,3208,63,No,Occasional,115,78,135,90
+19,Male,Business,73954,Vegan,7.3,17597,3.7,4.8,6,8.4,8,28.2,2448,67,No,Occasional,121,79,196,103
+22,Female,IT Professional,139507,Vegan,3.1,9808,2.1,6.3,6,5.6,6,30.4,2102,79,No,Occasional,125,80,161,87
+46,Male,Retired,29735,Vegetarian,2.8,16106,3.3,7.4,8,5.3,5,29.2,2039,80,Yes,Frequent,125,81,174,90
+54,Female,Engineer,62011,Non-Vegetarian,4.9,14902,3.1,7.7,7,2.7,3,26.9,2326,85,No,Occasional,127,78,191,88
+55,Female,Engineer,125721,Non-Vegetarian,2.0,5155,2.8,6.9,5,10.1,7,25.0,1957,81,No,Never,123,81,186,113
+36,Female,IT Professional,140373,Vegetarian,4.6,11868,3.6,6.9,6,6.9,6,21.1,2422,82,No,Never,115,68,143,75
+25,Male,Doctor,51671,Vegetarian,5.5,17453,2.5,7.5,8,5.0,5,28.0,2032,72,No,Never,118,78,181,88
+62,Male,Doctor,137908,Vegan,6.5,21921,3.2,6.7,6,8.7,8,31.7,2839,70,No,Never,139,78,181,92
+18,Male,Teacher,116974,Vegetarian,3.8,7875,2.5,8.7,8,4.1,3,26.4,2414,71,No,Occasional,116,75,167,99
+39,Female,Teacher,101814,Vegan,3.6,6780,2.0,8.0,7,6.8,7,32.7,1921,74,No,Never,134,82,208,106
+34,Male,Doctor,143338,Vegetarian,2.2,13637,2.7,8.0,7,5.7,5,18.9,1497,83,No,Never,120,70,138,90
+24,Female,Doctor,75854,Vegetarian,2.3,10114,3.8,5.8,5,7.3,7,20.4,1832,80,No,Never,119,70,149,89
+42,Female,Retired,66488,Non-Vegetarian,3.5,9129,1.8,6.9,7,5.9,6,28.4,2159,83,No,Occasional,117,73,156,83
+62,Male,Doctor,51091,Vegetarian,4.7,14796,2.9,6.6,6,3.1,4,26.1,3009,77,No,Occasional,110,67,199,84
+21,Female,Doctor,22859,Non-Vegetarian,5.8,8850,3.4,5.8,6,6.2,7,30.3,2632,72,No,Occasional,130,80,203,114
+53,Male,Engineer,113997,Non-Vegetarian,2.4,9328,2.6,7.4,7,8.1,8,24.9,1636,91,No,Frequent,117,75,187,88
+23,Male,Teacher,36185,Vegetarian,7.0,18419,3.2,6.4,7,5.9,7,21.5,2468,71,No,Never,122,71,184,96
+48,Male,IT Professional,111726,Vegetarian,3.5,13610,2.1,7.8,8,7.6,7,24.1,2207,84,No,Frequent,122,81,152,87
+36,Male,Student,84245,Non-Vegetarian,4.0,9665,2.9,5.7,5,3.9,6,18.9,2343,75,No,Occasional,114,68,140,70
+61,Male,IT Professional,130718,Vegetarian,2.5,9714,2.2,9.1,9,5.9,5,20.5,1771,84,No,Never,110,77,120,79
+56,Female,Business,78906,Non-Vegetarian,0.0,2686,1.1,5.9,7,4.8,6,28.9,1766,90,No,Occasional,138,86,250,88
+44,Female,Student,101395,Non-Vegetarian,5.8,16078,3.7,7.3,7,7.5,8,28.5,2317,74,Yes,Occasional,146,72,183,91
+27,Female,Engineer,84745,Vegetarian,5.5,12661,3.5,8.0,7,6.1,5,26.5,2184,62,Yes,Occasional,121,77,199,95
+43,Male,Business,103915,Non-Vegetarian,3.4,10099,2.7,6.3,7,7.4,8,18.1,2273,78,No,Frequent,116,70,120,83
+36,Male,Teacher,106087,Vegetarian,4.1,9890,2.9,8.0,7,8.2,8,23.6,2485,83,No,Never,123,64,186,72
+56,Male,Student,99436,Vegetarian,5.0,15627,3.5,5.5,6,7.4,8,20.1,2610,78,No,Never,115,68,190,81
+20,Female,Doctor,92916,Vegetarian,0.9,8766,2.4,8.7,7,6.5,5,29.7,2052,85,Yes,Never,123,82,190,93
+62,Male,Business,24707,Vegan,2.9,9633,3.1,7.0,8,4.0,6,22.7,2024,71,No,Never,112,82,143,80
+30,Female,Engineer,65277,Vegan,5.6,15175,2.9,6.3,6,6.0,7,20.7,2651,70,No,Never,110,77,152,84
+45,Female,Student,105604,Non-Vegetarian,1.5,4078,3.1,6.6,7,4.9,5,25.1,2057,84,No,Frequent,123,77,128,85
+37,Male,Doctor,96431,Vegetarian,4.6,12530,3.1,8.0,9,5.3,7,22.4,2385,78,No,Never,116,74,161,100
+45,Male,Business,69756,Vegetarian,1.3,7214,2.5,6.3,6,5.3,6,30.9,1803,88,No,Occasional,115,87,212,113
+25,Female,Engineer,95748,Non-Vegetarian,4.9,20371,2.3,6.1,5,4.0,6,22.1,2264,74,No,Occasional,120,82,160,97
+58,Male,Business,94859,Non-Vegetarian,3.9,9240,2.9,6.7,6,2.1,6,19.4,2286,79,Yes,Frequent,113,69,144,75
+56,Female,Student,113470,Vegan,0.8,10100,1.9,5.6,7,4.7,6,16.4,2506,83,No,Frequent,117,61,148,65
+18,Male,Doctor,76579,Vegetarian,6.3,18832,2.8,9.2,9,6.4,3,24.9,2631,67,No,Occasional,120,66,184,91
+20,Male,Teacher,133877,Vegetarian,2.5,10201,2.2,6.3,5,3.3,6,22.8,1947,69,No,Frequent,110,80,130,85
+30,Female,Retired,87884,Non-Vegetarian,2.4,13716,2.0,8.0,8,6.0,3,19.3,1880,82,No,Occasional,96,69,151,74
+45,Male,Engineer,83879,Non-Vegetarian,4.4,13850,3.9,7.3,8,9.8,7,29.8,2205,77,No,Frequent,126,81,240,87
+42,Female,Student,131506,Non-Vegetarian,6.3,17312,3.8,5.8,6,8.0,8,27.7,3100,69,No,Occasional,124,72,156,95
+50,Male,Doctor,57115,Non-Vegetarian,2.0,8467,3.5,7.0,7,9.3,7,24.9,1940,73,No,Never,128,74,170,86
+55,Female,Teacher,77023,Vegan,4.1,15438,2.2,7.9,7,6.8,4,30.5,2519,80,No,Occasional,127,78,233,107
+23,Female,Business,102943,Non-Vegetarian,4.9,16561,3.0,6.8,6,8.3,9,27.7,2294,74,No,Occasional,136,81,205,102
+61,Male,Doctor,57495,Vegan,5.4,13155,2.4,8.4,9,4.6,4,21.7,2513,77,No,Occasional,106,71,149,95
+62,Female,Retired,124229,Vegan,4.4,9621,2.5,8.2,9,4.7,6,20.8,2526,86,Yes,Never,121,68,159,70
+49,Male,Teacher,147139,Non-Vegetarian,3.3,10432,2.2,8.1,8,1.0,2,28.3,2053,68,Yes,Occasional,126,73,185,100
+62,Male,Student,32265,Vegetarian,2.3,7139,3.2,6.4,6,8.4,7,26.6,1916,77,No,Frequent,113,83,163,86
+64,Male,Doctor,87445,Vegetarian,4.2,12401,2.6,5.7,6,9.1,9,25.7,2719,76,No,Never,134,79,173,79
+38,Female,Retired,94772,Non-Vegetarian,1.9,11513,3.0,6.3,6,4.9,6,21.6,2274,88,Yes,Occasional,117,76,153,80
+33,Female,Doctor,111901,Non-Vegetarian,0.0,3856,2.5,7.2,7,5.5,4,27.4,1998,77,No,Occasional,125,73,184,105
+38,Male,IT Professional,68709,Vegan,4.9,13712,4.1,7.7,8,4.5,6,22.0,2585,85,No,Frequent,112,62,145,81
+28,Male,Engineer,56060,Vegetarian,5.8,15585,2.3,4.4,3,6.8,8,24.6,2611,74,No,Frequent,131,75,145,105
+54,Female,Doctor,46411,Vegetarian,0.0,7121,2.8,7.0,7,8.2,5,30.8,2304,85,No,Occasional,122,77,194,106
+53,Male,Retired,67684,Non-Vegetarian,2.0,2982,3.1,7.2,5,2.5,5,22.4,2051,80,No,Occasional,122,75,196,82
+52,Male,Teacher,86947,Vegetarian,5.2,12843,2.5,6.7,7,6.8,6,18.7,2568,72,No,Never,117,84,148,91
+36,Female,Engineer,129025,Vegetarian,8.1,20108,3.9,8.5,9,5.4,4,20.8,2409,74,No,Occasional,107,74,149,87
+37,Male,Student,87740,Non-Vegetarian,4.0,15200,3.0,7.5,8,6.2,4,29.0,2074,72,No,Occasional,137,89,203,88
+35,Female,Retired,33899,Non-Vegetarian,2.5,8270,2.5,8.6,9,6.9,7,26.0,1800,82,No,Frequent,126,80,173,111
+64,Male,Engineer,72852,Vegetarian,3.6,6788,2.3,6.7,7,5.6,5,24.5,2551,76,No,Occasional,124,72,207,92
+58,Female,IT Professional,145320,Vegan,6.7,18609,2.8,8.1,8,5.8,5,23.0,1966,68,No,Never,108,75,164,87
+31,Male,Student,118024,Non-Vegetarian,2.7,8271,3.6,9.0,7,5.6,5,26.9,2023,93,Yes,Occasional,136,84,194,85
+32,Male,Doctor,15678,Vegan,2.4,6345,2.6,8.6,9,7.9,6,21.6,1340,82,Yes,Never,109,81,143,96
+48,Female,Retired,60797,Non-Vegetarian,3.0,8839,3.0,5.7,6,6.8,8,26.2,1952,82,Yes,Never,132,76,187,98
+18,Male,Business,53894,Vegetarian,2.1,8318,2.1,6.7,5,6.4,5,22.1,1929,86,No,Never,110,74,166,91
+20,Female,Student,113202,Vegetarian,4.2,11048,2.4,6.6,7,3.5,4,21.4,2650,69,No,Never,110,66,156,79
+33,Male,Retired,93763,Vegetarian,7.2,12446,3.8,7.6,8,5.2,5,22.5,2763,79,No,Occasional,121,77,152,94
+40,Female,Student,85442,Non-Vegetarian,4.6,15522,2.2,7.8,7,7.8,5,23.5,2144,63,Yes,Never,124,80,153,97
+28,Female,IT Professional,22898,Vegetarian,3.5,14487,2.5,6.0,6,6.1,7,24.8,2486,74,No,Never,115,77,177,83
+29,Female,Teacher,65352,Non-Vegetarian,3.4,12748,2.7,7.1,7,7.3,7,25.9,2212,76,No,Frequent,131,75,188,78
+27,Female,Student,62207,Non-Vegetarian,0.9,3775,2.4,4.6,4,9.5,10,16.0,1917,86,No,Occasional,119,73,133,80
+49,Male,Retired,86880,Vegetarian,5.8,14936,3.0,8.7,7,8.1,4,21.8,2195,74,No,Never,109,74,165,69
+33,Male,Teacher,135618,Vegetarian,3.8,11823,3.0,6.4,7,6.2,9,23.4,2008,77,Yes,Never,132,77,165,89
+25,Female,Engineer,122394,Non-Vegetarian,3.6,12976,3.1,7.1,6,5.0,6,31.0,2026,78,No,Never,122,82,198,97
+55,Female,Business,127382,Vegan,10.4,25000,4.1,6.6,6,1.0,4,20.7,3060,59,Yes,Never,109,71,151,95
+29,Female,IT Professional,32442,Vegetarian,4.6,11444,2.4,8.4,9,5.7,6,25.7,2371,68,No,Never,126,81,175,88
+41,Male,Doctor,71436,Vegetarian,2.5,9704,2.4,4.0,4,5.3,10,31.0,2486,84,No,Occasional,130,86,250,112
+45,Male,Retired,143934,Vegan,3.1,11723,3.3,7.0,9,6.8,5,19.7,2268,82,Yes,Never,114,67,157,76
+25,Male,Retired,136751,Vegetarian,6.3,19979,3.6,6.9,7,5.7,6,26.6,1879,80,Yes,Occasional,126,73,191,103
+45,Male,Retired,27686,Vegan,4.2,14321,2.1,6.5,7,5.4,4,21.8,2370,73,No,Frequent,113,71,168,105
+53,Female,Student,58604,Vegetarian,1.1,8952,2.5,9.1,10,2.4,2,23.0,1569,86,No,Occasional,119,75,159,76
+43,Female,Business,56163,Vegan,5.8,15649,2.1,5.9,6,4.1,7,21.8,2255,72,No,Frequent,117,75,185,88
+25,Female,Business,17491,Vegetarian,2.7,13386,2.6,7.9,7,7.0,6,22.1,1921,86,No,Occasional,119,71,155,113
+45,Male,Teacher,101742,Vegan,7.7,19884,4.3,7.4,6,9.4,7,35.9,2558,75,No,Occasional,146,86,237,111
+45,Male,Student,74382,Vegetarian,6.2,14007,2.7,8.5,7,5.8,2,28.4,2200,74,Yes,Occasional,127,75,179,97
+54,Male,Retired,94464,Non-Vegetarian,3.1,14088,2.2,6.2,7,6.7,8,29.4,2223,77,No,Never,135,84,170,106
+58,Female,Business,54772,Vegetarian,6.6,18624,3.6,6.1,5,7.9,9,27.0,2239,77,Yes,Never,121,81,187,94
+53,Female,Retired,92096,Vegetarian,4.1,11272,2.0,8.3,9,4.4,3,18.6,2381,80,No,Occasional,112,68,124,65
+44,Male,Retired,22011,Non-Vegetarian,5.7,14061,2.7,7.5,6,6.7,6,26.6,3043,70,No,Occasional,119,78,189,105
+34,Female,Retired,53118,Non-Vegetarian,5.0,14741,3.2,5.1,5,4.5,6,29.3,2068,68,Yes,Occasional,120,85,165,78
+26,Male,IT Professional,78849,Vegan,2.3,10297,2.2,6.4,8,7.7,8,21.6,2005,79,No,Frequent,119,72,152,80
+50,Male,Doctor,138793,Non-Vegetarian,2.7,10353,2.5,7.5,8,6.3,5,28.9,1493,87,No,Occasional,121,80,159,109
+37,Female,Engineer,122915,Vegan,6.1,16758,3.5,8.0,8,6.6,5,27.8,2457,79,No,Occasional,129,77,240,92
+30,Male,Engineer,30096,Non-Vegetarian,3.3,15189,2.9,6.2,6,4.4,5,32.4,2357,73,Yes,Occasional,136,83,169,97
+45,Female,Teacher,75047,Vegan,3.2,13438,2.8,4.0,3,7.4,9,23.3,2364,73,No,Frequent,111,74,165,96
+46,Male,Business,80891,Vegan,2.1,9256,2.3,7.6,8,10.2,8,20.6,2071,87,No,Occasional,113,74,177,74
+30,Female,Engineer,133160,Vegetarian,4.8,15993,3.1,5.5,4,4.0,5,23.6,2598,70,No,Frequent,110,79,187,76
+63,Female,Teacher,23432,Vegan,8.1,16998,3.4,4.6,4,5.3,8,30.7,3409,71,No,Never,130,78,212,103
+52,Female,Doctor,139790,Non-Vegetarian,1.9,9414,2.7,4.0,5,6.5,9,17.7,2456,78,No,Occasional,117,67,136,75
+23,Male,Retired,71862,Vegetarian,4.0,16723,2.6,8.0,7,7.6,5,16.7,2149,85,No,Never,107,64,166,65
+35,Male,Student,112186,Non-Vegetarian,6.8,16694,3.1,7.2,8,4.9,7,25.4,2253,68,No,Never,120,72,192,97
+22,Female,IT Professional,61618,Vegetarian,3.8,9720,2.3,6.7,8,1.0,3,23.2,2154,83,No,Frequent,123,75,169,92
+64,Female,Doctor,97774,Non-Vegetarian,4.9,12189,2.9,8.7,8,8.7,5,25.0,2151,76,No,Never,107,70,177,87
+42,Male,Doctor,125239,Vegetarian,1.9,5695,2.1,7.8,8,7.5,5,28.8,2141,82,No,Frequent,134,77,181,94
+19,Male,Engineer,74658,Vegetarian,4.9,11858,2.4,8.9,8,2.5,4,22.8,2093,65,No,Never,113,76,145,91
+27,Male,Engineer,108312,Non-Vegetarian,3.6,10553,2.9,5.3,5,4.8,8,17.5,2214,67,No,Occasional,112,73,167,89
+47,Female,IT Professional,136051,Non-Vegetarian,6.0,12286,3.2,7.0,8,9.1,7,33.2,2730,72,No,Never,132,82,231,102
+62,Male,Student,143081,Vegan,6.4,16559,3.6,5.1,6,8.9,10,21.0,2543,73,No,Occasional,130,76,138,90
+22,Male,Doctor,100544,Vegan,9.2,23815,3.4,6.7,7,7.9,7,20.8,2667,61,No,Never,109,74,152,88
+50,Female,Business,69598,Non-Vegetarian,5.2,12090,3.2,6.7,7,5.6,6,29.4,2718,69,No,Occasional,128,79,187,107
+18,Male,Engineer,57020,Vegetarian,4.7,17258,3.2,7.8,8,6.2,5,23.5,1894,78,Yes,Never,121,73,165,88
+35,Male,Doctor,23573,Non-Vegetarian,4.4,14196,3.1,7.1,6,5.7,5,24.7,2246,79,Yes,Occasional,110,84,172,81
+49,Male,Student,81668,Non-Vegetarian,3.3,13516,2.3,7.7,9,8.3,7,26.9,2186,78,No,Never,120,81,199,89
+64,Female,Teacher,66628,Non-Vegetarian,4.7,11815,3.0,7.8,7,4.2,4,29.3,2368,80,No,Never,125,88,174,102
+28,Female,Student,67287,Vegetarian,3.4,13256,2.9,9.6,9,4.4,4,23.7,2253,72,No,Never,112,72,150,106
+38,Female,Doctor,128838,Non-Vegetarian,4.3,10010,2.8,6.6,7,8.0,6,31.1,2469,75,No,Occasional,126,81,221,97
+43,Female,Doctor,15944,Vegetarian,6.6,19105,2.1,5.9,4,5.9,9,16.5,2583,80,No,Occasional,110,66,129,83
+42,Female,IT Professional,54442,Non-Vegetarian,2.0,9029,2.6,7.3,8,8.8,7,28.0,1948,81,No,Frequent,131,76,159,93
+39,Female,Doctor,59278,Non-Vegetarian,6.3,17723,4.3,6.0,5,4.7,7,21.6,2454,73,Yes,Never,116,81,149,85
+44,Female,Engineer,48602,Vegan,6.6,13941,3.0,8.8,9,5.9,5,30.5,2439,83,Yes,Occasional,135,78,187,115
+30,Male,Business,35134,Non-Vegetarian,3.8,9602,2.4,6.7,8,4.2,5,25.6,2453,70,No,Occasional,115,84,205,99
+50,Male,IT Professional,84720,Vegetarian,0.0,6493,2.4,6.3,6,6.0,8,22.3,1638,89,No,Never,113,70,180,73
+51,Female,Doctor,87714,Vegan,2.8,7669,2.8,6.4,6,3.0,2,27.7,2348,88,No,Occasional,133,72,206,90
+58,Male,Student,23146,Non-Vegetarian,6.6,18038,3.8,7.9,8,5.0,4,28.6,2597,70,No,Occasional,121,76,203,109
+52,Male,Doctor,127188,Vegetarian,4.0,8782,2.2,6.8,6,3.1,4,27.6,2150,81,No,Never,115,77,201,96
+18,Female,Student,133222,Non-Vegetarian,2.0,10720,2.9,6.2,4,7.4,6,20.9,2195,76,No,Never,105,76,142,72
+38,Male,Student,131740,Non-Vegetarian,3.0,7318,2.9,9.0,9,7.4,4,23.1,1978,76,No,Never,123,75,160,79
+23,Male,Doctor,121455,Non-Vegetarian,5.7,16640,3.0,6.0,6,2.5,6,25.0,2644,76,No,Occasional,120,74,152,97
+45,Male,Student,98780,Non-Vegetarian,5.1,15744,3.1,7.0,7,8.7,8,24.8,2465,79,No,Never,122,77,167,100
+34,Male,Business,110381,Non-Vegetarian,3.5,9558,3.2,7.8,8,11.0,8,28.0,2071,84,No,Never,128,78,198,96
+22,Male,Teacher,121355,Vegetarian,3.3,12395,3.1,5.0,6,6.1,7,16.9,2328,86,No,Never,117,66,142,101
+48,Female,IT Professional,110597,Non-Vegetarian,3.2,11411,2.1,7.6,7,4.7,5,26.3,2321,78,Yes,Never,121,73,203,101
+22,Female,Doctor,17127,Vegan,2.2,7612,2.9,5.7,5,11.6,10,23.8,2353,87,No,Never,139,82,144,86
+55,Female,Retired,140553,Non-Vegetarian,7.2,15438,3.2,8.0,8,3.4,5,21.6,2906,69,No,Frequent,116,65,168,76
+20,Male,Teacher,30877,Vegetarian,3.4,6213,2.7,5.8,5,6.0,8,22.0,2331,83,No,Never,126,81,135,75
+40,Female,Student,27519,Vegetarian,6.4,17394,3.2,7.8,7,6.4,5,24.1,2286,73,No,Occasional,124,73,170,92
+54,Male,Student,23351,Vegetarian,7.0,13687,3.2,8.3,10,8.7,5,16.0,3252,73,No,Occasional,107,65,151,69
+54,Male,IT Professional,138223,Non-Vegetarian,6.0,16038,3.7,8.0,8,6.7,5,22.2,2169,75,No,Occasional,113,76,157,102
+27,Male,Teacher,72548,Non-Vegetarian,3.1,9921,2.6,7.3,7,5.0,5,21.5,2409,71,No,Occasional,117,79,169,99
+27,Male,Teacher,124538,Non-Vegetarian,4.8,15337,2.4,6.7,8,4.1,5,27.1,2484,70,Yes,Never,127,82,161,101
+36,Female,Doctor,107997,Non-Vegetarian,4.0,11444,2.6,6.3,7,5.3,7,21.8,1986,78,No,Occasional,115,76,126,73
+34,Female,Student,140597,Non-Vegetarian,2.2,8136,2.6,8.8,9,4.0,4,24.1,2033,72,No,Occasional,119,78,180,82
+38,Male,Retired,54253,Non-Vegetarian,4.6,15109,3.5,6.2,6,6.1,7,31.2,2332,80,Yes,Occasional,140,75,232,114
+31,Female,Engineer,101967,Vegetarian,1.6,8717,2.7,5.8,9,4.9,7,29.0,2318,86,No,Occasional,141,78,168,92
+26,Male,Retired,49864,Non-Vegetarian,6.4,17310,2.7,7.8,6,3.0,4,28.6,2390,74,No,Frequent,130,74,211,108
+63,Female,Doctor,27493,Vegan,3.1,11753,3.9,6.0,4,8.5,8,23.0,2107,73,No,Occasional,132,80,165,92
+18,Female,Doctor,20337,Non-Vegetarian,4.4,9081,3.0,5.9,6,5.0,6,27.2,1744,83,No,Frequent,121,76,154,95
+62,Male,Doctor,78281,Non-Vegetarian,4.6,15171,3.5,5.3,5,3.5,5,24.1,2786,86,No,Occasional,123,78,146,82
+30,Female,IT Professional,31035,Non-Vegetarian,3.5,12831,2.6,6.4,4,5.7,6,24.2,1952,79,No,Occasional,129,78,169,88
+21,Male,IT Professional,103854,Vegan,5.2,11818,3.2,6.9,7,6.1,7,26.6,2506,77,No,Occasional,120,74,170,95
+18,Female,Doctor,34884,Non-Vegetarian,3.1,9969,3.1,7.3,7,2.5,3,22.6,2147,80,No,Frequent,112,70,136,96
+57,Male,Business,24074,Vegetarian,5.7,15161,3.7,8.1,8,6.7,5,31.0,2459,76,No,Frequent,140,85,162,92
+49,Male,Engineer,107885,Vegan,1.3,7003,2.9,7.6,8,3.9,5,24.4,2158,82,No,Never,114,72,153,87
+51,Female,Teacher,41907,Vegan,4.3,13574,3.3,6.8,6,9.4,8,27.5,2734,76,No,Occasional,120,80,186,95
+45,Female,Teacher,119723,Vegetarian,7.9,22798,3.2,6.8,7,7.0,6,30.8,2811,74,No,Never,140,78,195,107
+48,Male,Student,23624,Non-Vegetarian,2.0,11304,2.2,7.6,9,5.2,6,29.1,2204,93,No,Occasional,135,78,178,89
+25,Female,Teacher,36622,Non-Vegetarian,2.6,6399,2.8,8.5,9,4.5,5,19.4,2194,73,No,Never,115,71,154,67
+56,Female,Retired,88106,Vegetarian,5.0,15555,3.4,7.2,7,5.8,5,26.8,2654,74,No,Never,123,74,200,100
+43,Male,Teacher,36487,Vegan,4.4,16242,2.7,6.4,7,7.2,6,28.4,2212,70,No,Frequent,124,75,193,81
+51,Male,Engineer,15617,Non-Vegetarian,4.7,14427,3.4,5.8,7,5.9,8,28.6,2633,84,No,Never,131,81,184,110
+20,Female,Teacher,125988,Vegan,5.0,16727,3.7,5.3,4,5.6,7,20.5,2678,72,No,Occasional,126,70,173,81
+29,Male,Retired,140385,Vegetarian,5.3,19570,2.5,7.8,8,6.1,3,22.4,2707,67,No,Occasional,116,69,142,70
+18,Male,Engineer,121813,Non-Vegetarian,6.2,18719,2.7,7.7,8,4.8,3,29.0,2379,76,No,Never,137,74,184,93
+61,Male,IT Professional,128021,Vegetarian,4.8,14263,2.8,7.7,8,5.3,5,22.0,2334,84,No,Never,111,73,156,89
+22,Female,Engineer,48224,Non-Vegetarian,3.5,13912,2.9,6.8,6,1.8,3,23.8,2280,81,No,Occasional,116,77,142,83
+47,Female,IT Professional,43994,Non-Vegetarian,5.3,14902,2.7,8.7,9,7.9,5,31.3,2093,75,No,Never,128,86,189,102
+47,Male,Engineer,77439,Non-Vegetarian,7.8,19099,4.0,6.4,6,6.6,7,24.8,3135,71,Yes,Occasional,116,74,130,97
+34,Female,Doctor,117178,Vegetarian,3.7,10781,3.0,8.1,8,4.5,6,22.1,2241,85,No,Frequent,116,82,199,83
+64,Male,Retired,38014,Vegetarian,2.1,12688,2.5,7.0,6,9.8,8,21.5,2123,76,No,Never,121,70,139,75
+40,Female,Business,85509,Vegetarian,6.2,14113,2.4,6.3,6,6.2,8,26.3,2400,72,No,Never,129,83,209,90
+32,Male,IT Professional,85310,Vegetarian,3.8,15670,2.1,7.7,8,3.9,6,19.7,1924,75,Yes,Occasional,127,69,152,95
+54,Male,IT Professional,103635,Non-Vegetarian,0.0,6249,2.3,7.5,7,7.7,8,24.0,1649,79,No,Occasional,125,73,179,105
+38,Female,Teacher,65218,Non-Vegetarian,5.7,11761,2.0,7.4,6,6.8,6,26.3,2539,72,No,Never,131,74,167,73
+31,Male,IT Professional,61390,Non-Vegetarian,2.9,11139,3.1,7.1,8,6.8,4,30.2,2316,85,No,Never,127,79,197,111
+19,Female,Engineer,57588,Non-Vegetarian,3.8,6589,2.7,7.0,6,5.1,6,27.7,2296,80,No,Occasional,136,80,196,98
+28,Female,Doctor,129391,Vegetarian,4.7,15023,4.5,9.9,9,6.9,5,22.1,2451,79,No,Frequent,131,76,174,94
+56,Male,Doctor,28302,Vegetarian,4.4,15133,4.0,8.4,7,5.5,4,29.7,2244,77,No,Occasional,130,75,206,93
+55,Male,Teacher,18234,Vegetarian,5.4,13239,2.9,7.9,8,7.1,7,23.8,2572,77,Yes,Occasional,115,72,160,71
+51,Female,Engineer,85034,Non-Vegetarian,3.1,10888,2.6,7.1,9,2.2,5,20.1,2543,75,Yes,Frequent,110,68,143,87
+55,Male,Engineer,124734,Non-Vegetarian,5.0,18885,3.4,8.2,8,5.1,5,24.3,2576,73,No,Occasional,121,74,137,80
+51,Male,Student,85803,Vegetarian,3.5,10035,3.6,7.6,8,9.4,8,30.8,2422,79,No,Occasional,136,81,206,87
+35,Male,IT Professional,51437,Vegetarian,5.5,12252,2.2,7.0,7,4.5,6,25.7,2534,75,Yes,Occasional,127,73,196,78
+47,Male,Teacher,102989,Vegan,5.2,18064,2.1,6.6,7,4.8,3,25.1,2048,76,Yes,Frequent,121,75,205,97
+32,Male,Doctor,115265,Non-Vegetarian,2.1,13686,2.2,6.9,7,5.1,5,31.5,1791,80,No,Occasional,130,90,204,103
+44,Female,Retired,127244,Non-Vegetarian,6.2,16169,3.4,4.0,5,3.6,9,19.3,2658,71,No,Frequent,113,71,134,88
+51,Female,Business,32259,Non-Vegetarian,2.9,12748,2.9,7.3,6,1.6,3,19.9,2145,95,No,Occasional,113,68,120,88
+55,Male,Student,143526,Vegetarian,5.6,18433,3.6,6.4,6,5.5,6,18.5,2582,78,No,Occasional,123,73,167,74
+50,Male,Engineer,77674,Vegan,4.7,11603,2.3,8.9,9,6.3,3,26.5,2783,78,No,Never,126,73,142,92
+41,Male,IT Professional,30032,Non-Vegetarian,7.7,17646,2.2,7.0,7,5.9,8,25.7,2906,68,No,Never,128,80,168,87
+32,Female,Doctor,101419,Vegetarian,3.6,14557,3.2,5.6,4,5.7,9,31.2,2547,76,No,Occasional,141,80,192,99
+47,Male,Retired,41004,Non-Vegetarian,3.3,15152,2.3,6.9,6,6.1,5,26.0,2220,78,No,Never,120,84,175,83
+59,Female,Student,28170,Non-Vegetarian,4.0,13607,1.8,5.7,6,8.0,8,23.4,2078,78,No,Occasional,119,77,166,91
+34,Female,Engineer,119251,Vegetarian,3.4,8920,2.8,7.6,8,5.6,5,25.0,2194,69,No,Never,116,73,175,101
+22,Female,Doctor,32842,Non-Vegetarian,5.6,20047,3.4,7.3,9,4.9,6,25.5,2271,66,No,Occasional,122,74,126,83
+46,Male,Doctor,120699,Vegetarian,0.8,5112,2.3,8.1,8,5.4,5,18.3,2286,80,Yes,Never,108,68,145,91
+21,Female,Engineer,83708,Vegetarian,1.9,7582,2.3,6.1,4,7.2,8,35.8,2226,82,No,Occasional,148,91,171,111
+27,Male,Engineer,51195,Non-Vegetarian,1.9,9275,2.4,7.0,7,8.8,8,27.1,2158,80,No,Occasional,124,74,195,97
+34,Female,Teacher,143138,Vegetarian,5.9,19505,2.9,5.4,3,4.7,10,25.8,2817,81,Yes,Never,123,76,164,75
+27,Male,Doctor,22736,Non-Vegetarian,7.4,20454,2.6,7.8,9,6.2,4,27.5,2183,63,No,Occasional,135,75,139,77
+34,Female,Engineer,63258,Vegan,3.8,12877,2.4,7.6,8,6.7,4,27.8,2403,74,No,Never,121,77,167,97
+37,Male,Business,111804,Vegetarian,3.7,12818,3.0,7.6,8,4.0,4,24.4,1916,85,No,Never,119,73,158,97
+41,Female,Retired,58475,Non-Vegetarian,4.1,12488,3.0,7.0,8,6.0,4,22.5,2290,77,No,Occasional,118,67,186,79
+22,Male,Retired,59511,Non-Vegetarian,6.3,17735,3.2,7.5,9,3.1,3,27.4,2478,77,No,Never,115,75,186,111
+51,Male,Business,19206,Non-Vegetarian,2.1,2456,2.0,8.9,6,2.5,1,26.5,2217,91,No,Frequent,125,74,185,100
+23,Male,Retired,131888,Non-Vegetarian,4.5,12358,2.8,6.7,5,6.7,6,21.8,2397,73,No,Never,121,71,183,76
+19,Male,Student,34348,Vegetarian,6.0,16403,2.0,7.2,6,5.2,4,30.7,2856,73,No,Occasional,137,82,193,101
+30,Female,Retired,71057,Non-Vegetarian,5.0,11122,3.0,5.7,5,6.4,8,26.2,2250,74,Yes,Occasional,122,82,192,117
+60,Female,IT Professional,128359,Non-Vegetarian,4.4,13885,3.6,6.0,6,6.0,6,27.9,2505,66,Yes,Occasional,127,78,197,83
+60,Male,Retired,132615,Vegan,6.0,15288,2.4,7.1,7,4.0,5,30.6,2561,71,No,Occasional,129,81,169,106
+28,Female,Business,33032,Vegetarian,0.0,9388,1.9,8.3,8,5.9,6,25.1,1391,89,Yes,Occasional,123,67,202,87
+64,Male,Teacher,69679,Vegan,5.4,18652,3.2,6.7,5,3.5,4,26.3,2218,77,Yes,Occasional,113,74,149,100
+40,Male,Engineer,122654,Vegetarian,2.7,8695,3.2,6.7,6,8.8,7,28.2,2087,83,Yes,Occasional,128,83,203,109
+33,Female,IT Professional,129169,Vegan,0.3,5162,2.0,6.5,6,3.3,6,22.1,2114,83,No,Never,109,72,130,81
+48,Male,Teacher,50109,Non-Vegetarian,5.0,13815,2.6,6.4,6,5.6,4,25.2,2516,72,No,Occasional,122,72,185,102
+28,Male,Doctor,65670,Non-Vegetarian,6.7,15930,2.2,7.4,7,3.9,2,25.5,2312,78,No,Never,105,83,211,114
+33,Female,IT Professional,65022,Non-Vegetarian,3.7,12147,2.8,5.2,5,7.1,9,21.2,2209,75,No,Never,108,82,153,84
+25,Male,Business,59237,Vegetarian,5.9,13724,4.1,8.5,7,5.3,5,34.3,3012,75,No,Occasional,139,85,204,115
+21,Male,Teacher,24363,Vegetarian,7.2,15133,3.4,6.2,6,5.0,8,19.4,2692,71,No,Occasional,112,77,162,74
+57,Male,Engineer,61304,Vegetarian,6.6,18436,3.2,7.9,8,7.7,6,19.8,2510,79,No,Occasional,108,63,145,81
+21,Male,Engineer,26819,Vegetarian,7.3,19713,3.5,5.5,6,6.1,8,30.3,2799,75,No,Occasional,140,78,230,98
+42,Female,Retired,27191,Vegetarian,5.5,12889,3.0,7.8,7,7.0,6,27.9,2651,68,No,Never,128,76,187,104
+20,Female,Teacher,21499,Non-Vegetarian,4.2,14798,2.4,7.8,7,4.0,4,20.9,2190,71,No,Never,118,71,149,95
+49,Female,Doctor,78001,Non-Vegetarian,0.8,4861,2.7,7.5,7,3.2,6,27.4,2022,86,Yes,Never,124,76,171,94
+20,Male,Retired,125383,Vegetarian,3.5,11932,2.8,5.8,5,6.2,5,30.9,2138,78,No,Occasional,145,70,177,116
+44,Male,Business,32668,Vegan,2.3,11190,2.6,7.3,7,5.4,6,24.9,2256,78,Yes,Occasional,118,77,159,106
+46,Female,Teacher,111828,Non-Vegetarian,8.3,19855,3.0,5.6,5,7.3,10,35.4,2838,73,No,Never,153,89,207,118
+49,Male,Student,119349,Vegan,3.6,12616,3.4,6.7,7,5.8,6,18.1,2352,79,No,Occasional,111,77,135,73
+36,Male,Teacher,131665,Non-Vegetarian,4.2,11268,3.2,8.2,8,6.4,7,27.8,2114,77,No,Occasional,117,76,170,89
+38,Male,Teacher,111188,Vegetarian,5.1,13688,2.7,8.0,7,2.8,3,29.7,2207,79,Yes,Occasional,128,74,233,91
+22,Male,Business,121942,Non-Vegetarian,4.1,11865,3.3,7.0,9,9.8,8,28.6,2528,75,Yes,Occasional,131,69,166,106
+35,Female,Engineer,28070,Non-Vegetarian,7.4,16453,3.1,5.8,5,5.7,7,24.2,2668,78,No,Occasional,115,75,172,77
+45,Female,Retired,106392,Vegetarian,2.8,9598,2.2,7.8,8,7.4,4,23.8,2207,75,No,Occasional,112,77,179,95
+59,Female,Doctor,112164,Vegetarian,4.4,9048,2.5,7.0,6,4.3,4,26.8,2251,79,No,Never,122,74,192,83
+39,Male,Retired,103959,Vegetarian,2.5,8272,1.7,4.2,6,6.6,8,28.3,2325,87,No,Never,131,88,184,105
+38,Female,Teacher,116277,Vegetarian,1.4,6807,2.6,7.9,8,3.4,5,27.4,1816,75,No,Never,109,76,177,95
+23,Female,IT Professional,19626,Non-Vegetarian,2.8,9399,1.7,7.0,7,6.9,7,29.2,2102,78,No,Occasional,136,81,198,111
+18,Male,Engineer,64270,Non-Vegetarian,3.9,11416,2.2,8.4,8,5.3,5,20.9,2464,83,Yes,Frequent,111,67,161,94
+22,Male,Engineer,55767,Vegetarian,3.1,10425,1.6,5.7,4,6.1,8,24.1,2465,85,Yes,Occasional,115,78,163,103
+58,Female,Teacher,76505,Non-Vegetarian,2.6,10878,2.5,4.0,6,7.4,10,21.2,1981,79,No,Never,126,67,126,98
+29,Female,Business,17292,Non-Vegetarian,1.2,9346,2.3,7.3,8,3.5,6,23.5,2434,79,No,Occasional,119,78,157,89
+43,Female,IT Professional,131792,Vegetarian,3.8,10215,2.6,7.3,7,4.6,5,29.1,2334,82,Yes,Occasional,134,82,165,86
+63,Female,Teacher,29859,Vegetarian,1.0,3791,1.8,5.0,5,6.9,9,25.4,1659,89,Yes,Frequent,129,84,160,81
+51,Male,IT Professional,149891,Vegetarian,5.5,12294,2.4,5.8,4,10.2,9,35.4,2552,68,Yes,Occasional,141,82,214,88
+31,Female,Engineer,125986,Non-Vegetarian,4.2,11341,3.1,10.0,8,5.7,4,25.8,2208,71,No,Frequent,120,76,182,81
+43,Female,IT Professional,16280,Vegetarian,1.1,6100,2.1,6.6,7,7.2,7,25.2,2041,84,Yes,Never,126,79,208,91
+62,Male,Retired,23634,Non-Vegetarian,3.4,9195,2.9,7.9,7,5.8,6,25.4,2197,81,No,Never,120,78,163,86
+44,Female,Teacher,83550,Non-Vegetarian,2.5,6259,2.1,6.2,6,9.9,8,22.4,2119,79,No,Never,115,72,177,84
+26,Male,Student,74593,Non-Vegetarian,4.6,12139,3.0,4.5,4,2.5,6,24.8,2124,79,No,Occasional,125,66,177,95
+43,Male,Student,56421,Vegetarian,6.7,17513,3.9,6.8,6,6.2,7,29.5,2852,68,Yes,Never,129,82,216,95
+64,Male,IT Professional,100472,Vegetarian,0.2,6847,2.5,6.7,7,2.7,5,25.5,1535,74,No,Occasional,121,75,186,80
+39,Female,Business,59588,Non-Vegetarian,4.2,11166,2.6,6.5,5,1.0,4,21.8,2027,74,Yes,Occasional,121,70,139,84
+64,Female,Teacher,107613,Vegan,3.7,10627,2.9,6.9,8,6.6,7,21.3,2336,78,No,Never,117,77,123,75
+47,Male,Doctor,105491,Non-Vegetarian,5.3,12223,2.9,7.3,7,6.3,5,23.2,2837,73,No,Frequent,118,74,171,84
+60,Female,Student,101416,Non-Vegetarian,4.4,12841,2.9,6.8,7,5.4,6,25.3,2240,70,No,Never,119,71,163,104
+34,Female,Engineer,61158,Non-Vegetarian,2.5,7378,2.4,5.5,4,5.8,9,29.8,2275,71,No,Occasional,135,74,172,96
+43,Male,Retired,68798,Non-Vegetarian,3.4,12552,2.6,7.6,8,12.2,10,19.6,2476,76,No,Occasional,120,70,125,98
+53,Male,Teacher,63081,Vegan,2.4,4855,2.7,4.7,6,5.5,10,23.7,2292,85,No,Never,130,87,170,102
+18,Female,Teacher,70956,Vegetarian,6.2,15260,2.6,4.5,5,7.0,9,25.6,2466,79,No,Occasional,123,81,205,86
+25,Male,Retired,55278,Vegan,4.0,12952,2.3,7.9,8,4.7,6,17.7,2007,83,No,Occasional,108,71,135,66
+52,Female,Student,83486,Non-Vegetarian,7.8,19499,2.7,7.6,7,6.6,5,21.7,2184,65,No,Frequent,120,72,171,84
+32,Female,Retired,62155,Non-Vegetarian,3.9,18752,2.0,6.9,7,5.5,5,22.3,2202,71,No,Frequent,118,72,159,97
+64,Female,Retired,104338,Vegetarian,2.6,10554,2.0,5.3,7,5.2,5,21.8,2407,82,No,Never,110,78,133,80
+39,Female,Doctor,94741,Non-Vegetarian,1.0,4289,2.4,6.2,8,9.6,10,25.8,1639,86,No,Occasional,136,77,190,101
+31,Male,Retired,59690,Non-Vegetarian,0.4,5481,1.8,6.7,7,8.4,7,24.4,2023,86,No,Never,112,78,148,101
+43,Male,Engineer,142304,Vegetarian,0.8,1999,2.6,5.1,4,6.3,8,22.8,1658,73,No,Never,126,74,164,79
+45,Male,Doctor,22661,Vegetarian,4.5,12898,2.9,6.1,7,1.4,4,26.7,2367,72,Yes,Never,114,84,172,87
+40,Male,Engineer,114786,Vegan,5.0,11917,2.0,7.8,7,5.3,6,31.9,2577,75,Yes,Never,143,84,217,110
+31,Female,Student,51988,Non-Vegetarian,0.8,8728,2.6,8.7,8,11.4,7,31.6,1731,86,Yes,Frequent,124,87,177,104
+41,Female,Teacher,75159,Non-Vegetarian,5.8,14066,3.5,6.5,6,5.5,5,17.3,2539,77,No,Never,116,67,149,70
+19,Male,Engineer,48410,Vegetarian,3.0,10108,2.2,7.9,10,8.2,7,27.3,2056,80,No,Occasional,126,83,164,91
+62,Female,Teacher,93868,Non-Vegetarian,4.3,11151,3.1,4.7,6,8.9,8,24.3,2492,78,No,Occasional,121,75,159,88
+43,Female,IT Professional,49354,Non-Vegetarian,7.2,22307,2.9,7.8,9,6.4,5,25.6,2723,71,No,Occasional,123,76,120,76
+31,Female,IT Professional,99329,Non-Vegetarian,5.8,14636,3.1,6.0,7,4.3,4,23.4,2510,77,No,Frequent,121,80,207,95
+24,Male,Student,21504,Non-Vegetarian,3.5,15881,2.1,7.4,6,1.1,2,25.5,2610,80,No,Never,112,70,185,87
+20,Male,Student,108961,Non-Vegetarian,2.2,10995,1.6,6.7,7,7.4,7,25.6,2230,81,No,Occasional,119,78,159,65
+64,Male,Business,44811,Non-Vegetarian,0.0,6205,2.0,8.6,10,4.4,2,22.7,1627,84,No,Occasional,117,74,140,86
+40,Female,Student,32225,Vegetarian,2.6,10601,2.5,6.0,6,6.4,6,21.4,2091,80,No,Never,106,75,148,77
+63,Male,IT Professional,117891,Vegan,3.6,12464,2.5,7.8,9,3.5,4,23.2,2213,80,Yes,Occasional,113,72,179,104
+60,Male,Engineer,107732,Non-Vegetarian,2.0,3780,1.9,6.7,5,5.5,6,25.9,2060,82,No,Occasional,141,85,138,86
+64,Male,Retired,17272,Vegetarian,3.7,10962,2.6,6.8,8,6.1,8,27.4,2875,80,No,Never,122,74,179,84
+62,Male,Retired,79980,Non-Vegetarian,4.2,14672,3.0,6.8,6,6.5,8,28.4,2397,83,No,Never,136,86,221,102
+35,Male,Retired,72167,Non-Vegetarian,3.6,11357,2.7,6.0,6,3.8,5,23.0,1723,79,No,Never,114,79,141,80
+55,Male,Doctor,89697,Vegetarian,2.7,6347,2.7,7.0,8,8.4,8,26.1,1988,76,No,Occasional,129,86,178,85
+52,Female,Retired,147143,Vegetarian,4.3,12608,2.5,6.9,7,4.8,6,28.9,1833,81,No,Occasional,131,73,232,103
+32,Female,Student,106477,Non-Vegetarian,4.9,18080,3.5,7.3,8,2.7,3,29.7,2306,68,No,Occasional,132,74,203,88
+42,Male,Retired,149702,Vegetarian,1.8,11357,1.9,7.1,7,5.8,4,24.8,1519,76,Yes,Occasional,118,81,174,75
+54,Male,Doctor,80763,Non-Vegetarian,6.8,17084,3.5,8.0,6,6.1,5,24.1,2398,73,No,Frequent,131,67,179,106
+45,Female,Doctor,128646,Vegetarian,3.8,14218,3.4,8.1,7,6.3,5,25.8,1876,80,No,Occasional,118,70,167,98
+27,Female,IT Professional,94544,Non-Vegetarian,4.0,11283,3.0,5.7,6,8.7,8,20.4,2376,71,No,Occasional,119,72,180,79
+56,Male,Business,34954,Vegetarian,5.4,10460,2.9,8.0,8,5.5,5,24.2,2448,72,No,Occasional,121,76,161,89
+34,Male,Engineer,138324,Vegetarian,4.5,10788,2.6,5.6,7,5.8,7,28.0,2416,73,No,Occasional,121,85,145,101
+56,Male,IT Professional,121297,Vegan,5.9,19527,3.6,7.7,8,3.8,3,27.6,2482,71,No,Occasional,120,76,175,105
+39,Male,Student,95211,Non-Vegetarian,4.6,12595,2.2,7.7,7,7.6,6,23.9,2003,81,No,Frequent,121,73,148,81
+43,Female,IT Professional,77787,Non-Vegetarian,2.8,9431,2.1,4.7,5,6.4,9,25.9,2264,83,Yes,Frequent,124,80,170,96
+61,Male,IT Professional,147691,Vegetarian,4.7,12710,2.7,7.1,8,5.2,4,21.7,2845,76,No,Never,129,74,154,79
+42,Male,IT Professional,93421,Non-Vegetarian,1.7,12820,3.1,6.4,5,2.2,6,27.8,2106,79,No,Never,121,80,207,94
+34,Male,Student,92230,Non-Vegetarian,4.2,16624,3.0,6.1,6,8.9,7,24.7,2198,70,Yes,Frequent,130,76,185,91
+30,Male,Student,125122,Vegan,3.9,17566,2.3,8.6,7,3.5,3,23.9,1911,84,No,Never,122,65,173,88
+37,Female,IT Professional,26448,Vegan,3.6,11082,2.6,6.2,6,4.8,6,23.6,2005,81,No,Frequent,120,71,166,95
+42,Female,IT Professional,58369,Non-Vegetarian,3.7,12399,2.4,6.0,7,6.7,7,24.7,2357,74,Yes,Occasional,117,82,150,95
+21,Female,Doctor,133372,Non-Vegetarian,0.2,1568,1.9,7.1,8,3.6,4,23.2,2092,88,No,Never,112,74,121,72
+27,Male,Engineer,26467,Non-Vegetarian,2.9,13912,3.1,7.8,9,3.0,6,27.6,2213,79,No,Never,122,77,185,82
+20,Male,Doctor,42095,Non-Vegetarian,4.2,9640,2.1,6.8,7,1.8,3,23.4,2504,75,No,Never,105,77,181,84
+58,Female,Business,123715,Vegetarian,4.3,13281,3.6,8.4,9,7.4,8,31.4,2493,79,No,Never,128,78,195,120
+62,Male,Engineer,54007,Vegetarian,1.9,5676,2.9,7.6,8,4.9,5,30.9,2155,77,No,Occasional,120,79,185,93
+35,Male,Business,133562,Vegetarian,6.5,15227,3.7,4.4,3,11.9,10,21.4,2415,70,No,Occasional,129,76,167,82
+64,Female,Engineer,28617,Vegetarian,2.3,7046,2.3,6.4,6,4.0,6,25.3,2119,81,No,Frequent,126,74,172,86
+53,Female,IT Professional,43304,Vegetarian,5.9,14100,3.0,6.3,4,4.2,8,22.4,2296,71,No,Occasional,125,76,195,80
+64,Female,Doctor,111729,Non-Vegetarian,4.9,12472,2.2,7.6,8,4.9,4,23.7,2392,79,No,Occasional,121,73,191,90
+39,Female,Engineer,86120,Non-Vegetarian,2.7,8489,2.3,4.0,1,6.5,8,33.0,2207,89,No,Occasional,137,78,223,119
+51,Male,Business,89341,Non-Vegetarian,7.6,20763,3.6,10.0,10,5.1,2,23.8,3132,66,No,Occasional,124,73,182,93
+64,Male,Engineer,105800,Vegetarian,1.6,5117,3.1,7.6,9,7.2,6,26.4,1665,73,No,Occasional,120,72,152,85
+25,Female,Student,89625,Vegetarian,5.8,15991,2.5,7.2,8,4.0,3,27.2,2616,63,No,Never,122,77,194,122
+57,Male,Engineer,80416,Non-Vegetarian,6.0,18844,2.9,8.4,9,3.2,3,21.0,2890,72,Yes,Never,117,76,164,84
+61,Female,Retired,128792,Vegetarian,2.7,8577,2.5,9.8,10,2.4,3,21.6,2314,76,No,Never,105,70,171,79
+36,Female,IT Professional,75356,Non-Vegetarian,6.8,15445,2.5,8.0,8,1.6,3,20.2,2824,72,Yes,Never,129,66,163,96
+59,Male,Teacher,26110,Vegan,3.5,10723,3.0,8.1,7,5.0,4,21.5,2367,79,No,Occasional,114,71,167,79
+58,Female,Student,114464,Vegetarian,4.6,16229,2.5,7.2,7,5.4,5,16.0,2677,68,No,Never,108,65,190,91
+54,Male,Teacher,120635,Vegetarian,4.5,13585,2.8,6.8,6,4.7,6,27.2,2068,67,Yes,Frequent,133,80,179,86
+23,Male,IT Professional,29684,Non-Vegetarian,3.7,10331,2.5,6.4,6,8.5,7,33.2,1898,79,No,Frequent,141,83,224,119
+43,Male,Retired,128102,Vegan,5.6,16289,2.6,6.0,6,8.5,10,25.6,2470,74,No,Frequent,128,86,165,93
+51,Male,Teacher,39419,Non-Vegetarian,5.6,12324,3.0,6.2,6,5.3,8,19.3,1932,72,No,Frequent,116,77,165,93
+62,Female,Engineer,147599,Vegan,0.5,7603,2.2,5.4,5,2.4,6,22.4,2168,76,No,Never,109,73,180,105
+23,Male,Teacher,123409,Vegetarian,6.6,17901,3.0,6.9,5,4.9,6,23.2,2897,74,No,Occasional,116,77,172,76
+54,Female,Doctor,42757,Vegan,0.7,5490,1.9,5.0,5,4.8,8,20.9,1776,90,No,Never,121,72,189,96
+50,Female,IT Professional,61664,Vegetarian,6.1,13883,3.3,7.2,7,4.7,6,28.4,2439,74,No,Occasional,129,79,168,82
+39,Female,Doctor,141226,Vegetarian,6.3,14123,4.0,7.0,7,4.6,4,28.2,2538,68,Yes,Frequent,131,76,175,86
+38,Female,Teacher,30205,Vegan,1.8,9577,2.5,7.2,8,4.7,5,20.4,2029,82,Yes,Frequent,113,75,158,74
+23,Male,Retired,75207,Vegan,3.2,13832,3.2,6.4,8,5.2,5,27.9,2216,72,No,Occasional,117,83,201,101
+23,Male,Doctor,35994,Vegetarian,1.8,6646,1.8,10.0,10,4.7,3,31.1,2156,87,No,Occasional,134,82,200,102
+21,Female,Student,136409,Vegetarian,3.6,12625,2.8,8.6,9,6.4,5,32.6,2189,78,No,Never,141,85,228,102
+47,Female,Teacher,101170,Vegetarian,3.4,5902,2.2,5.5,6,6.7,7,36.5,2444,69,No,Never,146,89,205,113
+28,Male,Business,123502,Vegetarian,5.6,13618,2.3,7.3,8,4.2,4,21.4,2583,72,Yes,Occasional,113,74,135,90
+47,Female,Doctor,45569,Vegetarian,6.6,16802,2.8,6.3,5,8.5,7,36.3,2440,74,No,Occasional,146,81,223,117
+48,Male,Engineer,110711,Vegan,6.8,14965,3.8,5.8,5,4.0,5,23.6,2950,70,No,Frequent,139,81,165,99
+41,Female,Teacher,125702,Non-Vegetarian,2.9,7878,3.1,5.4,5,2.8,7,22.6,1808,78,No,Never,120,82,173,104
+26,Male,Retired,21626,Non-Vegetarian,3.6,9810,2.9,7.5,5,6.8,5,26.3,2209,72,No,Frequent,115,76,177,93
+20,Female,Business,116159,Non-Vegetarian,0.6,6810,1.5,6.2,6,4.4,6,22.7,2114,87,No,Occasional,115,73,156,81
+48,Female,Retired,18964,Non-Vegetarian,2.4,8851,2.5,8.2,7,6.6,3,26.6,1907,77,No,Occasional,124,78,177,99
+57,Male,Student,127794,Non-Vegetarian,5.9,10024,3.2,8.2,8,1.2,3,19.7,2585,62,No,Occasional,101,72,151,69
+54,Female,Engineer,33058,Non-Vegetarian,7.2,12658,3.4,8.6,6,8.8,6,24.0,2800,69,No,Frequent,121,74,162,82
+53,Female,Teacher,120182,Vegetarian,1.5,6182,1.5,6.0,6,7.3,7,30.1,1765,87,Yes,Never,133,76,188,110
+41,Male,Retired,19433,Non-Vegetarian,2.8,11184,2.2,7.6,7,3.0,4,24.8,2118,77,No,Frequent,128,76,163,89
+48,Female,Engineer,98747,Non-Vegetarian,3.9,5151,2.8,7.8,7,3.0,4,25.6,2229,86,Yes,Never,128,77,192,79
+23,Male,Teacher,91227,Non-Vegetarian,4.6,12030,3.2,6.4,7,9.3,7,26.9,2214,78,No,Never,131,81,183,79
+19,Male,Teacher,46063,Vegan,2.4,8004,1.5,6.1,5,4.5,5,29.7,2663,82,No,Occasional,115,81,236,99
+37,Female,IT Professional,48484,Non-Vegetarian,4.8,17110,2.8,8.9,9,4.3,5,18.4,2185,75,No,Occasional,116,69,149,90
+45,Female,Doctor,101780,Non-Vegetarian,3.1,9617,2.7,7.3,7,1.5,3,27.3,2423,78,No,Occasional,126,80,170,106
+28,Female,Teacher,105196,Vegetarian,4.0,13157,3.2,7.8,9,5.3,5,23.9,2182,76,No,Occasional,120,75,221,90
+21,Female,Student,45084,Non-Vegetarian,5.1,14533,3.3,6.0,6,5.5,8,25.7,2140,73,No,Occasional,115,76,183,112
+32,Female,Business,129455,Non-Vegetarian,4.0,6873,3.1,5.5,6,7.4,10,29.2,2306,80,No,Never,128,81,209,97
+23,Female,Doctor,39802,Vegetarian,3.1,12500,2.3,6.3,7,3.2,4,20.2,2334,74,Yes,Frequent,105,64,165,80
+47,Female,IT Professional,72012,Non-Vegetarian,3.8,12378,1.8,6.9,8,3.0,5,20.9,2486,72,No,Never,102,71,168,65
+55,Male,Doctor,129610,Non-Vegetarian,3.8,13110,2.6,5.7,6,6.9,7,17.3,2647,72,No,Frequent,111,73,152,72
+19,Female,Doctor,84922,Vegetarian,3.3,20755,3.2,7.0,6,8.0,6,22.8,2932,89,No,Never,114,76,141,95
+32,Male,Teacher,23157,Vegan,3.5,6089,3.4,5.0,5,2.9,6,30.3,2283,81,Yes,Occasional,145,86,201,116
+28,Female,Student,63742,Vegetarian,7.2,22271,3.6,5.7,6,8.2,7,24.5,2498,72,No,Occasional,121,75,144,81
+25,Female,Teacher,22675,Vegan,5.1,13461,3.2,7.8,5,6.1,5,19.6,2525,70,Yes,Never,120,73,147,85
+43,Male,Retired,41228,Non-Vegetarian,3.4,11838,2.9,7.7,6,8.2,5,23.1,2141,81,No,Occasional,108,77,150,97
+62,Female,Student,33251,Vegetarian,5.4,14606,2.7,6.5,7,5.9,7,19.0,2679,74,No,Never,111,81,155,80
+61,Female,Retired,38349,Non-Vegetarian,3.3,9879,2.6,5.8,7,1.0,5,20.5,1872,79,No,Never,114,72,161,65
+22,Male,Student,144417,Non-Vegetarian,6.3,14915,4.0,5.8,6,5.7,7,26.6,3148,68,No,Never,120,74,188,96
+23,Female,Engineer,64178,Non-Vegetarian,4.7,14283,2.4,6.6,7,8.1,7,20.3,2578,76,No,Occasional,113,76,159,90
+43,Female,Teacher,96362,Non-Vegetarian,3.8,8047,3.6,7.8,8,4.2,4,29.5,1835,75,No,Occasional,125,86,178,89
+21,Female,Retired,111479,Non-Vegetarian,4.9,15696,2.8,8.1,8,5.2,5,24.7,2211,71,No,Occasional,119,74,166,87
+36,Male,IT Professional,144044,Non-Vegetarian,0.9,5579,3.0,6.4,6,5.6,5,25.3,2112,87,No,Frequent,132,79,192,79
+37,Female,Business,102687,Vegan,1.7,5234,1.8,5.6,6,1.0,5,23.9,2298,74,Yes,Occasional,121,79,189,65
+50,Female,Doctor,143325,Vegetarian,1.6,6754,2.7,7.3,8,9.3,6,28.1,1674,85,No,Occasional,129,83,161,106
+37,Female,Engineer,78196,Non-Vegetarian,4.3,15882,2.5,6.0,6,4.2,5,28.1,2494,80,No,Occasional,128,78,154,96
+29,Female,Retired,47400,Vegetarian,7.5,17161,2.6,6.4,8,7.0,5,26.3,2213,66,No,Occasional,126,74,163,109
+64,Male,IT Professional,28536,Non-Vegetarian,8.5,21196,3.6,8.6,8,5.8,6,27.3,2798,64,No,Occasional,125,78,202,103
+18,Male,Business,148772,Non-Vegetarian,5.3,12712,3.5,8.0,10,8.5,6,24.2,2714,73,No,Never,119,77,193,85
+43,Female,Business,99607,Vegetarian,5.0,15894,2.5,7.2,7,6.8,7,27.2,2262,76,No,Frequent,127,82,162,94
+31,Female,Teacher,53100,Vegetarian,0.4,7433,1.5,5.5,5,5.5,8,23.6,1471,83,No,Occasional,129,77,173,94
+55,Male,Student,47947,Vegetarian,2.9,14841,2.6,7.3,7,4.2,4,25.0,2185,81,No,Never,126,73,209,100
+54,Male,Retired,88532,Non-Vegetarian,2.4,8881,2.5,8.3,9,7.6,4,23.9,1937,89,No,Occasional,116,76,176,92
+28,Female,Teacher,95398,Non-Vegetarian,2.8,11711,2.9,6.5,6,2.3,7,23.2,2293,77,Yes,Never,125,79,193,98
+53,Male,Business,74413,Vegan,3.7,11905,3.2,8.6,8,7.3,7,22.2,2023,69,No,Never,118,76,181,82
+30,Female,Teacher,97841,Non-Vegetarian,3.1,13819,2.6,8.6,9,3.8,3,26.9,1979,83,Yes,Never,121,72,161,84
+60,Male,Engineer,50860,Vegetarian,0.0,3202,3.1,9.0,10,8.5,6,30.2,1295,93,No,Occasional,127,79,189,99
+20,Male,Retired,139390,Vegan,5.5,16762,3.1,7.4,6,6.3,5,29.7,2502,76,No,Occasional,126,83,191,101
+50,Male,IT Professional,28727,Non-Vegetarian,1.9,7933,2.3,7.7,9,7.3,6,20.0,1988,76,No,Occasional,122,66,154,69
+23,Male,Business,104385,Non-Vegetarian,4.5,12939,2.1,8.7,10,6.2,4,30.2,2043,75,No,Never,128,71,211,86
+27,Female,Retired,148791,Vegetarian,8.1,19809,3.3,7.5,6,2.5,2,23.7,2820,63,No,Occasional,116,79,175,93
+22,Male,Engineer,128771,Non-Vegetarian,2.2,9590,2.4,6.4,6,4.3,4,27.4,2321,84,Yes,Occasional,114,79,123,91
+40,Male,IT Professional,24215,Vegan,0.0,4709,2.7,6.5,8,7.3,7,21.4,1746,78,No,Never,116,76,131,82
+27,Female,Engineer,105124,Non-Vegetarian,3.4,11656,2.9,7.3,8,6.3,5,25.6,2275,77,No,Occasional,120,72,131,88
+61,Male,Doctor,105826,Vegetarian,6.2,20105,2.5,5.5,7,8.4,9,26.3,2612,68,No,Never,122,82,181,108
+19,Male,Student,75494,Non-Vegetarian,7.9,21683,3.5,6.8,7,6.8,6,19.1,2447,70,No,Never,113,72,153,92

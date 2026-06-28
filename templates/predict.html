@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+{% block title %}Predict Health Risk{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="dashboard-header">
+        <h1>🔮 <span class="gradient-text">Predict Health Risk</span></h1>
+        <p>Enter custom metrics to predict health risk using our trained Random Forest model.</p>
+    </div>
+
+    <!-- ═══════════════ PREDICT SECTION ═══════════════ -->
+    <div class="dashboard-section" id="panel-predict">
+        <div class="dash-card">
+            <div class="dash-card-header"><h3>🔮 Predict Your Health Risk</h3></div>
+            <div class="dash-card-body">
+                <p style="color:var(--text-secondary);margin-bottom:1.5rem;">
+                    Enter your health metrics below and the Random Forest model will predict your health risk category.
+                </p>
+                <div class="predict-form" id="predictForm">
+                    <div class="form-group">
+                        <label for="predAge">Age</label>
+                        <input type="number" id="predAge" value="30" min="18" max="100" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predGender">Gender</label>
+                        <select id="predGender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="predOccupation">Occupation</label>
+                        <select id="predOccupation">
+                            <option value="Engineer">Engineer</option>
+                            <option value="Doctor">Doctor</option>
+                            <option value="Teacher">Teacher</option>
+                            <option value="Student">Student</option>
+                            <option value="Business">Business</option>
+                            <option value="IT Professional">IT Professional</option>
+                            <option value="Retired">Retired</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="predIncome">Monthly Income</label>
+                        <input type="number" id="predIncome" value="60000" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predDiet">Diet Type</label>
+                        <select id="predDiet">
+                            <option value="Non-Vegetarian">Non-Vegetarian</option>
+                            <option value="Vegetarian">Vegetarian</option>
+                            <option value="Vegan">Vegan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="predExercise">Exercise Hrs/Week</label>
+                        <input type="number" id="predExercise" value="4" step="0.1" min="0" max="20" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predSteps">Steps/Day</label>
+                        <input type="number" id="predSteps" value="10000" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predWater">Water (L/Day)</label>
+                        <input type="number" id="predWater" value="2.5" step="0.1" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predSleep">Sleep Hrs/Day</label>
+                        <input type="number" id="predSleep" value="7" step="0.1" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predSleepQuality">Sleep Quality (1-10)</label>
+                        <input type="number" id="predSleepQuality" value="7" min="1" max="10" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predScreen">Screen Time Hrs</label>
+                        <input type="number" id="predScreen" value="6" step="0.1" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predStress">Stress Level (1-10)</label>
+                        <input type="number" id="predStress" value="5" min="1" max="10" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predBMI">BMI</label>
+                        <input type="number" id="predBMI" value="24.5" step="0.1" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predCalories">Calories/Day</label>
+                        <input type="number" id="predCalories" value="2200" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predHeartRate">Resting Heart Rate</label>
+                        <input type="number" id="predHeartRate" value="75" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predSmoking">Smoking Status</label>
+                        <select id="predSmoking">
+                            <option value="No">No</option>
+                            <option value="Yes">Yes</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="predAlcohol">Alcohol Consumption</label>
+                        <select id="predAlcohol">
+                            <option value="Never">Never</option>
+                            <option value="Occasional">Occasional</option>
+                            <option value="Frequent">Frequent</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="predSBP">Systolic BP</label>
+                        <input type="number" id="predSBP" value="120" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predDBP">Diastolic BP</label>
+                        <input type="number" id="predDBP" value="75" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predCholesterol">Cholesterol Level</label>
+                        <input type="number" id="predCholesterol" value="180" />
+                    </div>
+                    <div class="form-group">
+                        <label for="predGlucose">Blood Glucose</label>
+                        <input type="number" id="predGlucose" value="90" />
+                    </div>
+                </div>
+                <button class="btn btn-primary" id="runPrediction" style="width:100%;">🔮 Predict Health Risk</button>
+                <div class="prediction-result" id="predictionResult"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/predict.js') }}"></script>
+{% endblock %}

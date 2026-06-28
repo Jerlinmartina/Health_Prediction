@@ -1,0 +1,313 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-badge">🔬 AI-Powered Health Analytics</div>
+        <h1 class="hero-title">
+            Understand Your Health<br>
+            With <span class="gradient-text">Machine Learning</span>
+        </h1>
+        <p class="hero-subtitle">
+            Explore health patterns across 1000+ individuals using advanced clustering,
+            dimensionality reduction, and predictive algorithms — all visualized in real-time.
+        </p>
+        <div class="hero-actions">
+            <a href="{{ url_for('dashboard') }}" class="btn btn-primary" id="cta-dashboard">
+                📊 Explore Dashboard
+            </a>
+            <a href="{{ url_for('about') }}" class="btn btn-secondary" id="cta-about">
+                ℹ️ Learn More
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Bar -->
+<section class="container">
+    <div class="stats-bar">
+        <div class="stat-card fade-in-up">
+            <div class="stat-icon">👥</div>
+            <div class="stat-number" id="stat-records">{{ summary.total_records }}</div>
+            <div class="stat-label">Health Records</div>
+        </div>
+        <div class="stat-card fade-in-up">
+            <div class="stat-icon">📋</div>
+            <div class="stat-number" id="stat-features">{{ summary.total_features }}</div>
+            <div class="stat-label">Health Features</div>
+        </div>
+        <div class="stat-card fade-in-up">
+            <div class="stat-icon">🤖</div>
+            <div class="stat-number">4</div>
+            <div class="stat-label">ML Algorithms</div>
+        </div>
+        <div class="stat-card fade-in-up">
+            <div class="stat-icon">💡</div>
+            <div class="stat-number">{{ summary.numeric_stats.BMI.mean }}</div>
+            <div class="stat-label">Avg BMI</div>
+        </div>
+        <div class="stat-card fade-in-up">
+            <div class="stat-icon">❤️</div>
+            <div class="stat-number">{{ summary.numeric_stats.Resting_Heart_Rate.mean }}</div>
+            <div class="stat-label">Avg Heart Rate</div>
+        </div>
+    </div>
+</section>
+
+<!-- Distribution Charts Section -->
+<section class="section container">
+    <div class="section-header">
+        <h2 class="section-title">Dataset <span class="gradient-text">Overview</span></h2>
+        <p class="section-subtitle">Key distributions from the health dataset at a glance.</p>
+    </div>
+
+    <div class="dash-grid">
+        <div class="dash-card fade-in-up">
+            <div class="dash-card-header">
+                <h3>🥧 Health Risk Distribution</h3>
+            </div>
+            <div class="dash-card-body">
+                <div class="chart-container" style="min-height:260px;">
+                    <canvas id="riskPieChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="dash-card fade-in-up">
+            <div class="dash-card-header">
+                <h3>📊 BMI Categories</h3>
+            </div>
+            <div class="dash-card-body">
+                <div class="chart-container" style="min-height:260px;">
+                    <canvas id="bmiBarChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="dash-card fade-in-up">
+            <div class="dash-card-header">
+                <h3>🧑‍💼 Gender Distribution</h3>
+            </div>
+            <div class="dash-card-body">
+                <div class="chart-container" style="min-height:260px;">
+                    <canvas id="genderChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="dash-card fade-in-up">
+            <div class="dash-card-header">
+                <h3>🍽️ Diet Type Distribution</h3>
+            </div>
+            <div class="dash-card-body">
+                <div class="chart-container" style="min-height:260px;">
+                    <canvas id="dietChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="section container">
+    <div class="section-header">
+        <h2 class="section-title">Powered by <span class="gradient-text">Advanced Analytics</span></h2>
+        <p class="section-subtitle">
+            Four powerful ML algorithms working together to uncover hidden health patterns and predict risk levels.
+        </p>
+    </div>
+
+    <div class="features-grid">
+        <div class="feature-card fade-in-up">
+            <div class="feature-icon cyan">🎯</div>
+            <h3>K-Means Clustering</h3>
+            <p>Groups individuals into distinct health profiles based on lifestyle and biometric similarities. Discover natural clusters in the data.</p>
+        </div>
+        <div class="feature-card fade-in-up">
+            <div class="feature-icon purple">🔍</div>
+            <h3>DBSCAN</h3>
+            <p>Density-based clustering that finds arbitrarily shaped groups and identifies outlier health profiles that don't fit any pattern.</p>
+        </div>
+        <div class="feature-card fade-in-up">
+            <div class="feature-icon amber">📐</div>
+            <h3>PCA Analysis</h3>
+            <p>Reduces 21 health dimensions into visual 2D space while preserving maximum variance, revealing the structure of the data.</p>
+        </div>
+        <div class="feature-card fade-in-up">
+            <div class="feature-icon green">🌲</div>
+            <h3>Random Forest</h3>
+            <p>Ensemble of decision trees that predicts health risk categories and reveals which features matter most for your health.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section container" style="text-align: center; padding-bottom: 6rem;">
+    <h2 class="section-title" style="margin-bottom: 1rem;">Ready to <span class="gradient-text">Dive Deeper</span>?</h2>
+    <p class="section-subtitle" style="margin-bottom: 2rem;">
+        Head to the interactive dashboard to explore clustering, PCA, and predictions with real-time controls.
+    </p>
+    <a href="{{ url_for('dashboard') }}" class="btn btn-primary" id="cta-dashboard-bottom">
+        🚀 Launch Dashboard
+    </a>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // ── Chart defaults ──
+    Chart.defaults.color = '#94a3b8';
+    Chart.defaults.font.family = "'Inter', sans-serif";
+    Chart.defaults.plugins.legend.labels.usePointStyle = true;
+    Chart.defaults.plugins.legend.labels.padding = 16;
+
+    const summaryData = {{ summary | tojson }};
+
+    // ── Health Risk Pie ──
+    const riskData = summaryData.distributions.health_risk;
+    // Color map: Low=green, Medium=yellow/amber, High=red
+    const riskColorMap = {
+        'Low':    { bg: 'rgba(34, 197, 94, 0.85)',  border: 'rgba(34, 197, 94, 1)' },
+        'Medium': { bg: 'rgba(234, 179, 8, 0.85)',  border: 'rgba(234, 179, 8, 1)' },
+        'High':   { bg: 'rgba(239, 68, 68, 0.85)',  border: 'rgba(239, 68, 68, 1)' },
+    };
+    const riskLabels = Object.keys(riskData);
+    new Chart(document.getElementById('riskPieChart'), {
+        type: 'doughnut',
+        data: {
+            labels: riskLabels,
+            datasets: [{
+                data: Object.values(riskData),
+                backgroundColor: riskLabels.map(l => (riskColorMap[l] || riskColorMap['Medium']).bg),
+                borderColor:     riskLabels.map(l => (riskColorMap[l] || riskColorMap['Medium']).border),
+                borderWidth: 2,
+                hoverOffset: 8
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            cutout: '60%',
+            plugins: {
+                legend: { position: 'bottom' }
+            }
+        }
+    });
+
+    // ── BMI Bar Chart ──
+    const bmiData = summaryData.distributions.bmi_categories;
+    new Chart(document.getElementById('bmiBarChart'), {
+        type: 'bar',
+        data: {
+            labels: Object.keys(bmiData),
+            datasets: [{
+                label: 'Count',
+                data: Object.values(bmiData),
+                backgroundColor: [
+                    'rgba(59, 130, 246, 0.7)',
+                    'rgba(34, 197, 94, 0.7)',
+                    'rgba(245, 158, 11, 0.7)',
+                    'rgba(239, 68, 68, 0.7)'
+                ],
+                borderColor: [
+                    'rgba(59, 130, 246, 1)',
+                    'rgba(34, 197, 94, 1)',
+                    'rgba(245, 158, 11, 1)',
+                    'rgba(239, 68, 68, 1)'
+                ],
+                borderWidth: 2,
+                borderRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+                y: { grid: { color: 'rgba(255,255,255,0.04)' } },
+                x: { grid: { display: false } }
+            }
+        }
+    });
+
+    // ── Gender Doughnut ──
+    const genderData = summaryData.categorical_stats.Gender;
+    // Color map: Male=blue, Female=pink — mapped by label name so order doesn't matter
+    const genderColorMap = {
+        'Male':   { bg: 'rgba(59, 130, 246, 0.85)',  border: 'rgba(59, 130, 246, 1)' },
+        'Female': { bg: 'rgba(236, 72, 153, 0.85)', border: 'rgba(236, 72, 153, 1)' },
+    };
+    const genderLabels = Object.keys(genderData);
+    new Chart(document.getElementById('genderChart'), {
+        type: 'doughnut',
+        data: {
+            labels: genderLabels,
+            datasets: [{
+                data: Object.values(genderData),
+                backgroundColor: genderLabels.map(l => (genderColorMap[l] || { bg: 'rgba(100,116,139,0.8)' }).bg),
+                borderColor:     genderLabels.map(l => (genderColorMap[l] || { border: 'rgba(100,116,139,1)' }).border),
+                borderWidth: 2,
+                hoverOffset: 8
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            cutout: '60%',
+            plugins: { legend: { position: 'bottom' } }
+        }
+    });
+
+    // ── Diet Bar Chart ──
+    const dietData = summaryData.categorical_stats.Diet_Type;
+    new Chart(document.getElementById('dietChart'), {
+        type: 'bar',
+        data: {
+            labels: Object.keys(dietData),
+            datasets: [{
+                label: 'Count',
+                data: Object.values(dietData),
+                backgroundColor: [
+                    'rgba(34, 197, 94, 0.7)',
+                    'rgba(245, 158, 11, 0.7)',
+                    'rgba(139, 92, 246, 0.7)'
+                ],
+                borderColor: [
+                    'rgba(34, 197, 94, 1)',
+                    'rgba(245, 158, 11, 1)',
+                    'rgba(139, 92, 246, 1)'
+                ],
+                borderWidth: 2,
+                borderRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+                y: { grid: { color: 'rgba(255,255,255,0.04)' } },
+                x: { grid: { display: false } }
+            }
+        }
+    });
+
+    // ── Animated counters ──
+    document.querySelectorAll('.stat-number').forEach(el => {
+        const target = parseFloat(el.textContent);
+        if (isNaN(target)) return;
+        const isFloat = el.textContent.includes('.');
+        let current = 0;
+        const step = target / 60;
+        const interval = setInterval(() => {
+            current += step;
+            if (current >= target) {
+                current = target;
+                clearInterval(interval);
+            }
+            el.textContent = isFloat ? current.toFixed(1) : Math.floor(current);
+        }, 20);
+    });
+});
+</script>
+{% endblock %}
