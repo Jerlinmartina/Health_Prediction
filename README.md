@@ -333,13 +333,13 @@ Then display them like this:
 ## Prediction
 
 ![Prediction](screenshots/prediction.png)
-![Prediction](screenshots/prediction1.png)
-![Prediction](screenshots/prediction2.png)
+![Prediction](screenshots/perdiction1.png)
+![Prediction](screenshots/perdiction2.png)
 
 ## K-Means
 
-![KMeans](screenshots/kmeans.png)
-![KMeans](screenshots/Kmeans1.png)
+![KMeans](screenshots/kmean.png)
+![KMeans](screenshots/Kmean1.png)
 
 ## PCA
 
